@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "noadds": {
+      "commandName": "MsixPackage",
+      "alwaysReinstallApp": true,
+      "remoteDebugEnabled": true,
+      "remoteDebugMachine": "192.168.1.37",
+      "authenticationMode": "Universal"
+    }
+  }
+}

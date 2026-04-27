@@ -1,0 +1,93 @@
+<Page
+    x:Class="noadds.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:noadds"
+    xmlns:muxc="using:Microsoft.UI.Xaml.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid x:Name="RootLayout" RowSpacing="12" Padding="12">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <TextBlock
+            x:Name="TitleText"
+            Text="NoAdds YouTube"
+            FontSize="24"
+            FontWeight="SemiBold" />
+
+        <Grid
+            x:Name="NavigationBar"
+            Grid.Row="1"
+            ColumnSpacing="8"
+            Margin="0,8,0,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+
+            <Button
+                x:Name="BackButton"
+                Grid.Column="0"
+                Content="Atras"
+                Click="BackButton_Click" />
+
+            <Button
+                x:Name="ForwardButton"
+                Grid.Column="1"
+                Content="Adelante"
+                Click="ForwardButton_Click" />
+
+            <Button
+                Grid.Column="2"
+                Content="Inicio"
+                Click="HomeButton_Click" />
+
+            <Button
+                Grid.Column="3"
+                Content="Recargar"
+                Click="RefreshButton_Click" />
+
+            <Button
+                Grid.Column="4"
+                Content="Extensiones"
+                Click="ExtensionsButton_Click" />
+
+            <TextBox
+                x:Name="AddressBar"
+                Grid.Column="5"
+                PlaceholderText="Escribe una URL o busqueda"
+                KeyDown="AddressBar_KeyDown" />
+
+            <Button
+                Grid.Column="6"
+                Content="Ir"
+                Click="GoButton_Click" />
+        </Grid>
+
+        <TextBlock
+            x:Name="StatusText"
+            Grid.Row="2"
+            Text="Listo"
+            Opacity="0.8" />
+
+        <muxc:WebView2
+            x:Name="BrowserView"
+            Grid.Row="3"
+            Margin="0,8,0,0"
+            NavigationStarting="BrowserView_NavigationStarting"
+            NavigationCompleted="BrowserView_NavigationCompleted" />
+    </Grid>
+</Page>
