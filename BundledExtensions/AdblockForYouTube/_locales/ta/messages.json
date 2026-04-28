@@ -1,0 +1,58 @@
+{
+   "actionTitle": {
+      "message": "விருப்பங்கள்"
+   },
+   "disabled": {
+      "message": "முடக்கப்பட்டது"
+   },
+   "displayActionCountAsBadgeText": {
+      "description": "Boolean Option",
+      "message": "தடுக்கப்பட்ட கோரிக்கைகளின் எண்ணிக்கையை பேட்ஜில் காட்டு"
+   },
+   "displayVideoBranding": {
+      "description": "Boolean Option",
+      "message": "வீடியோவின் கீழே நீட்டிப்புத் தகவலைக் காட்டு"
+   },
+   "dontAskAgain": {
+      "message": "மீண்டும் கேட்காதே"
+   },
+   "enabled": {
+      "message": "இயக்கப்பட்டது"
+   },
+   "extensionDescription": {
+      "description": "The description of the application",
+      "message": "YouTube™க்கான தனியுரிமை விழிப்புணர்வு, பாதுகாப்பான Adblock. YouTube.com இல் விளம்பரங்களைத் தடுக்கிறது."
+   },
+   "extensionName": {
+      "description": "The name of the application",
+      "message": "YouTube™க்கான Adblock — best adblocker"
+   },
+   "extensionShortName": {
+      "description": "The short_name (maximum of 12 characters recommended) is a short version of the extension's name.",
+      "message": "Adb YouTube™"
+   },
+   "helpUsWithAReview": {
+      "message": "மதிப்பாய்வில் எங்களுக்கு உதவுங்கள்"
+   },
+   "later": {
+      "message": "பின்னர்"
+   },
+   "recommend": {
+      "description": "Shown by the recommend button",
+      "message": "பரிந்துரை"
+   },
+   "timesaveInfo": {
+      "description": "Tells the user how many time he saved already.",
+      "message": "Youtube™ க்கான Adblock சுமார் சேமிக்கப்பட்டது. உங்கள் வாழ்நாளின் $savedTime$.",
+      "placeholders": {
+         "savedTime": {
+            "content": "$1",
+            "example": "42"
+         }
+      }
+   },
+   "videoBranding": {
+      "description": "Shown below a video",
+      "message": "YouTube™க்கான Adblock மூலம் சுத்தம் செய்யப்பட்டது"
+   }
+}

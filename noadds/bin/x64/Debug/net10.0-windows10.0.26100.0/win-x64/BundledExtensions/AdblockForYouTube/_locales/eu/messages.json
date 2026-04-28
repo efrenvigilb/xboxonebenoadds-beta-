@@ -1,0 +1,58 @@
+{
+  "extensionName": {
+    "message": "Adblock YouTube™-rako — best adblocker",
+    "description": "The name of the application"
+  },
+  "extensionShortName": {
+    "message": "Adb YouTube™",
+    "description": "The short_name (maximum of 12 characters recommended) is a short version of the extension's name."
+  },
+  "extensionDescription": {
+    "message": "Pribatutasuna jakitun, YouTube™-rako Adblock segurua. YouTube.com-en iragarkiak blokeatzen ditu.",
+    "description": "The description of the application"
+  },
+  "actionTitle": {
+    "message": "Aukerak"
+  },
+  "enabled": {
+    "message": "Gaituta"
+  },
+  "disabled": {
+    "message": "Desgaituta"
+  },
+  "timesaveInfo": {
+    "message": "Youtube™-rako Adblock gorde da gutxi gorabehera. Zure bizitzako $savedTime$.",
+    "description": "Tells the user how many time he saved already.",
+    "placeholders": {
+      "savedTime": {
+        "content": "$1",
+        "example": "42"
+      }
+    }
+  },
+  "videoBranding": {
+    "message": "Adblock-ek garbitu du YouTube™-rako",
+    "description": "Shown below a video"
+  },
+  "displayVideoBranding": {
+    "message": "Erakutsi luzapenaren informazioa bideoaren azpian",
+    "description": "Boolean Option"
+  },
+  "displayActionCountAsBadgeText": {
+    "message": "Erakutsi blokeatutako eskaeren kopurua bereizgarrian",
+    "description": "Boolean Option"
+  },
+  "recommend": {
+    "message": "Gomendatu",
+    "description": "Shown by the recommend button"
+  },
+  "helpUsWithAReview": {
+    "message": "Lagundu iezaguzu Berrikuspen batekin"
+  },
+  "later": {
+    "message": "Geroago"
+  },
+  "dontAskAgain": {
+    "message": "Ez galdetu berriro"
+  }
+}

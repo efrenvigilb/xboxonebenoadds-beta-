@@ -1,0 +1,58 @@
+{
+   "actionTitle": {
+      "message": "Seçimlər"
+   },
+   "disabled": {
+      "message": "Əlil"
+   },
+   "displayActionCountAsBadgeText": {
+      "description": "Boolean Option",
+      "message": "Nişanda bloklanmış sorğuların sayını göstərin"
+   },
+   "displayVideoBranding": {
+      "description": "Boolean Option",
+      "message": "Videonun altında uzantı məlumatını göstərin"
+   },
+   "dontAskAgain": {
+      "message": "Bir daha soruşma"
+   },
+   "enabled": {
+      "message": "Aktivdir"
+   },
+   "extensionDescription": {
+      "description": "The description of the application",
+      "message": "Məxfilikdən xəbərdar, YouTube™ üçün təhlükəsiz Adblock. YouTube.com-da reklamları bloklayır."
+   },
+   "extensionName": {
+      "description": "The name of the application",
+      "message": "YouTube™ üçün Adblock — best adblocker"
+   },
+   "extensionShortName": {
+      "description": "The short_name (maximum of 12 characters recommended) is a short version of the extension's name.",
+      "message": "Adb YouTube™"
+   },
+   "helpUsWithAReview": {
+      "message": "Rəy ilə bizə kömək edin"
+   },
+   "later": {
+      "message": "Daha sonra"
+   },
+   "recommend": {
+      "description": "Shown by the recommend button",
+      "message": "tövsiyə edin"
+   },
+   "timesaveInfo": {
+      "description": "Tells the user how many time he saved already.",
+      "message": "Youtube™ üçün Adblock təqribən saxlanıldı. Ömrünüzün $savedTime$.",
+      "placeholders": {
+         "savedTime": {
+            "content": "$1",
+            "example": "42"
+         }
+      }
+   },
+   "videoBranding": {
+      "description": "Shown below a video",
+      "message": "YouTube™ üçün Adblock tərəfindən təmizlənib"
+   }
+}

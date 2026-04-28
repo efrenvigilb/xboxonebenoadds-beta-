@@ -1,0 +1,58 @@
+{
+   "actionTitle": {
+      "message": "Επιλογές"
+   },
+   "disabled": {
+      "message": "άτομα με ειδικές ανάγκες"
+   },
+   "displayActionCountAsBadgeText": {
+      "description": "Boolean Option",
+      "message": "Εμφάνιση του αριθμού των αποκλεισμένων αιτημάτων στο σήμα"
+   },
+   "displayVideoBranding": {
+      "description": "Boolean Option",
+      "message": "Εμφάνιση πληροφοριών επέκτασης κάτω από το βίντεο"
+   },
+   "dontAskAgain": {
+      "message": "Μην ξαναρωτήσεις"
+   },
+   "enabled": {
+      "message": "Ενεργοποιήθηκε"
+   },
+   "extensionDescription": {
+      "description": "The description of the application",
+      "message": "Με επίγνωση του απορρήτου, ασφαλές Adblock για το YouTube™. Αποκλείει τις διαφημίσεις στο YouTube.com."
+   },
+   "extensionName": {
+      "description": "The name of the application",
+      "message": "Adblock για το YouTube™ — best adblocker"
+   },
+   "extensionShortName": {
+      "description": "The short_name (maximum of 12 characters recommended) is a short version of the extension's name.",
+      "message": "Adb YouTube™"
+   },
+   "helpUsWithAReview": {
+      "message": "Βοηθήστε μας με μια κριτική"
+   },
+   "later": {
+      "message": "Αργότερα"
+   },
+   "recommend": {
+      "description": "Shown by the recommend button",
+      "message": "Συνιστώ"
+   },
+   "timesaveInfo": {
+      "description": "Tells the user how many time he saved already.",
+      "message": "Το Adblock για Youtube™ αποθηκεύτηκε περίπου. $savedTime$ της ζωής σας.",
+      "placeholders": {
+         "savedTime": {
+            "content": "$1",
+            "example": "42"
+         }
+      }
+   },
+   "videoBranding": {
+      "description": "Shown below a video",
+      "message": "Καθαρίστηκε από το Adblock για το YouTube™"
+   }
+}

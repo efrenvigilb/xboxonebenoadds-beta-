@@ -1,0 +1,58 @@
+{
+   "actionTitle": {
+      "message": "Opsies"
+   },
+   "disabled": {
+      "message": "Gedeaktiveer"
+   },
+   "displayActionCountAsBadgeText": {
+      "description": "Boolean Option",
+      "message": "Wys geblokkeerde versoeke tel in kenteken"
+   },
+   "displayVideoBranding": {
+      "description": "Boolean Option",
+      "message": "Wys uitbreidingsinligting onder video"
+   },
+   "dontAskAgain": {
+      "message": "Moenie weer vra nie"
+   },
+   "enabled": {
+      "message": "Geaktiveer"
+   },
+   "extensionDescription": {
+      "description": "The description of the application",
+      "message": "Privaatheidsbewuste, veilige Adblock vir YouTube™. Blokkeer advertensies op YouTube.com."
+   },
+   "extensionName": {
+      "description": "The name of the application",
+      "message": "Advertensieblok vir YouTube™ — best adblocker"
+   },
+   "extensionShortName": {
+      "description": "The short_name (maximum of 12 characters recommended) is a short version of the extension's name.",
+      "message": "Adb YouTube™"
+   },
+   "helpUsWithAReview": {
+      "message": "Help ons met 'n resensie"
+   },
+   "later": {
+      "message": "Later"
+   },
+   "recommend": {
+      "description": "Shown by the recommend button",
+      "message": "Aanbeveel"
+   },
+   "timesaveInfo": {
+      "description": "Tells the user how many time he saved already.",
+      "message": "Advertensieblok vir Youtube™ het ongeveer gestoor. $savedTime$ van jou leeftyd.",
+      "placeholders": {
+         "savedTime": {
+            "content": "$1",
+            "example": "42"
+         }
+      }
+   },
+   "videoBranding": {
+      "description": "Shown below a video",
+      "message": "Skoongemaak deur Adblock for YouTube™"
+   }
+}

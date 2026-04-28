@@ -1,0 +1,58 @@
+{
+  "extensionName": {
+    "message": "Adblock foar YouTube™ — best adblocker",
+    "description": "The name of the application"
+  },
+  "extensionShortName": {
+    "message": "Adb YouTube™",
+    "description": "The short_name (maximum of 12 characters recommended) is a short version of the extension's name."
+  },
+  "extensionDescription": {
+    "message": "Privacybewust, feilige Adblock foar YouTube™. Blokkeart advertinsjes op YouTube.com.",
+    "description": "The description of the application"
+  },
+  "actionTitle": {
+    "message": "Opsjes"
+  },
+  "enabled": {
+    "message": "Mooglik meitsje"
+  },
+  "disabled": {
+    "message": "Ynvalide"
+  },
+  "timesaveInfo": {
+    "message": "Adblock foar Youtube™ bewarre ca. $savedTime$ fan jo libben.",
+    "description": "Tells the user how many time he saved already.",
+    "placeholders": {
+      "savedTime": {
+        "content": "$1",
+        "example": "42"
+      }
+    }
+  },
+  "videoBranding": {
+    "message": "Skjinmakke troch Adblock foar YouTube™",
+    "description": "Shown below a video"
+  },
+  "displayVideoBranding": {
+    "message": "Lit tafoegingynfo sjen ûnder fideo",
+    "description": "Boolean Option"
+  },
+  "displayActionCountAsBadgeText": {
+    "message": "Lit blokkearre oanfragen telle yn badge sjen",
+    "description": "Boolean Option"
+  },
+  "recommend": {
+    "message": "Oanrikkemandearje",
+    "description": "Shown by the recommend button"
+  },
+  "helpUsWithAReview": {
+    "message": "Help ús mei in resinsje"
+  },
+  "later": {
+    "message": "Letter"
+  },
+  "dontAskAgain": {
+    "message": "Net wer freegje"
+  }
+}

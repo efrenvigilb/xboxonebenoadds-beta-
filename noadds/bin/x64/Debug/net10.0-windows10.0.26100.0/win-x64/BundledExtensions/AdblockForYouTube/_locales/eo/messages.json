@@ -1,0 +1,58 @@
+{
+   "actionTitle": {
+      "message": "Opcioj"
+   },
+   "disabled": {
+      "message": "Malebligita"
+   },
+   "displayActionCountAsBadgeText": {
+      "description": "Boolean Option",
+      "message": "Montru la nombron de blokitaj petoj en insigno"
+   },
+   "displayVideoBranding": {
+      "description": "Boolean Option",
+      "message": "Montru etendajn informojn sub video"
+   },
+   "dontAskAgain": {
+      "message": "Ne demandu denove"
+   },
+   "enabled": {
+      "message": "Ebligita"
+   },
+   "extensionDescription": {
+      "description": "The description of the application",
+      "message": "Konscia privateco, sekura Adblock por YouTube™. Blokas reklamojn ĉe YouTube.com."
+   },
+   "extensionName": {
+      "description": "The name of the application",
+      "message": "Adblock por YouTube™ — best adblocker"
+   },
+   "extensionShortName": {
+      "description": "The short_name (maximum of 12 characters recommended) is a short version of the extension's name.",
+      "message": "Adb YouTube™"
+   },
+   "helpUsWithAReview": {
+      "message": "Helpu nin kun Recenzo"
+   },
+   "later": {
+      "message": "Poste"
+   },
+   "recommend": {
+      "description": "Shown by the recommend button",
+      "message": "Rekomendi"
+   },
+   "timesaveInfo": {
+      "description": "Tells the user how many time he saved already.",
+      "message": "Adblock por Youtube™ ŝparis ĉ. $savedTime$ de via vivo.",
+      "placeholders": {
+         "savedTime": {
+            "content": "$1",
+            "example": "42"
+         }
+      }
+   },
+   "videoBranding": {
+      "description": "Shown below a video",
+      "message": "Purigita de Adblock por YouTube™"
+   }
+}

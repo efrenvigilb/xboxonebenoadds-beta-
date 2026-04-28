@@ -1,0 +1,58 @@
+{
+  "extensionName": {
+    "message": "Adblock ho an'ny YouTube™ — best adblocker",
+    "description": "The name of the application"
+  },
+  "extensionShortName": {
+    "message": "Adb YouTube™",
+    "description": "The short_name (maximum of 12 characters recommended) is a short version of the extension's name."
+  },
+  "extensionDescription": {
+    "message": "Mahalala ny tsiambaratelo, Adblock azo antoka ho an'ny YouTube ™. Sakana ny doka ao amin'ny YouTube.com.",
+    "description": "The description of the application"
+  },
+  "actionTitle": {
+    "message": "FANDIKANA"
+  },
+  "enabled": {
+    "message": "afaka"
+  },
+  "disabled": {
+    "message": "sembana"
+  },
+  "timesaveInfo": {
+    "message": "Adblock for Youtube™ voatahiry eo ho eo. $savedTime$ amin'ny androm-piainanao.",
+    "description": "Tells the user how many time he saved already.",
+    "placeholders": {
+      "savedTime": {
+        "content": "$1",
+        "example": "42"
+      }
+    }
+  },
+  "videoBranding": {
+    "message": "Diovin'ny Adblock ho an'ny YouTube™",
+    "description": "Shown below a video"
+  },
+  "displayVideoBranding": {
+    "message": "Asehoy eo ambany vidéo ny fampahafantarana fanitarana",
+    "description": "Boolean Option"
+  },
+  "displayActionCountAsBadgeText": {
+    "message": "Asehoy ao anaty badge ny fangatahana voasakana",
+    "description": "Boolean Option"
+  },
+  "recommend": {
+    "message": "Recommend",
+    "description": "Shown by the recommend button"
+  },
+  "helpUsWithAReview": {
+    "message": "Ampio izahay amin'ny famerenana"
+  },
+  "later": {
+    "message": "taty aoriana"
+  },
+  "dontAskAgain": {
+    "message": "Aza manontany intsony"
+  }
+}

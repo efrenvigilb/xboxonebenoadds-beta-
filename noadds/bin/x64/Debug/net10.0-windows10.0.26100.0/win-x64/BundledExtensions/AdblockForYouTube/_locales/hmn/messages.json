@@ -1,0 +1,58 @@
+{
+  "extensionName": {
+    "message": "Adblock rau YouTube™ — best adblocker",
+    "description": "The name of the application"
+  },
+  "extensionShortName": {
+    "message": "Adb YouTube™",
+    "description": "The short_name (maximum of 12 characters recommended) is a short version of the extension's name."
+  },
+  "extensionDescription": {
+    "message": "Paub txog kev ceev ntiag tug, ruaj ntseg Adblock rau YouTube™. Blocks Advertisements ntawm YouTube.com.",
+    "description": "The description of the application"
+  },
+  "actionTitle": {
+    "message": "Kev xaiv"
+  },
+  "enabled": {
+    "message": "Qhib tau"
+  },
+  "disabled": {
+    "message": "Neeg tsis taus"
+  },
+  "timesaveInfo": {
+    "message": "Adblock rau Youtube™ tau txais kev cawmdim approx. $savedTime$ ntawm koj lub neej.",
+    "description": "Tells the user how many time he saved already.",
+    "placeholders": {
+      "savedTime": {
+        "content": "$1",
+        "example": "42"
+      }
+    }
+  },
+  "videoBranding": {
+    "message": "Ntxuav los ntawm Adblock rau YouTube™",
+    "description": "Shown below a video"
+  },
+  "displayVideoBranding": {
+    "message": "Qhia cov ntaub ntawv txuas ntxiv hauv qab video",
+    "description": "Boolean Option"
+  },
+  "displayActionCountAsBadgeText": {
+    "message": "Qhia cov ntawv thov raug thaiv suav hauv cov paib",
+    "description": "Boolean Option"
+  },
+  "recommend": {
+    "message": "Pom zoo",
+    "description": "Shown by the recommend button"
+  },
+  "helpUsWithAReview": {
+    "message": "Pab peb nrog Kev Ntsuam Xyuas"
+  },
+  "later": {
+    "message": "Tom qab ntawd"
+  },
+  "dontAskAgain": {
+    "message": "Tsis txhob nug dua"
+  }
+}

@@ -1,0 +1,58 @@
+{
+   "actionTitle": {
+      "message": "ഓപ്ഷനുകൾ"
+   },
+   "disabled": {
+      "message": "അപ്രാപ്തമാക്കി"
+   },
+   "displayActionCountAsBadgeText": {
+      "description": "Boolean Option",
+      "message": "തടഞ്ഞ അഭ്യർത്ഥനകളുടെ എണ്ണം ബാഡ്ജിൽ കാണിക്കുക"
+   },
+   "displayVideoBranding": {
+      "description": "Boolean Option",
+      "message": "വീഡിയോയ്ക്ക് താഴെയുള്ള വിപുലീകരണ വിവരങ്ങൾ കാണിക്കുക"
+   },
+   "dontAskAgain": {
+      "message": "വീണ്ടും ചോദിക്കരുത്"
+   },
+   "enabled": {
+      "message": "പ്രവർത്തനക്ഷമമാക്കി"
+   },
+   "extensionDescription": {
+      "description": "The description of the application",
+      "message": "YouTube™-നുള്ള സ്വകാര്യത ബോധമുള്ള, സുരക്ഷിതമായ Adblock. YouTube.com-ലെ പരസ്യങ്ങൾ തടയുന്നു."
+   },
+   "extensionName": {
+      "description": "The name of the application",
+      "message": "YouTube™-നുള്ള ആഡ്ബ്ലോക്ക്"
+   },
+   "extensionShortName": {
+      "description": "The short_name (maximum of 12 characters recommended) is a short version of the extension's name.",
+      "message": "Adb YouTube™"
+   },
+   "helpUsWithAReview": {
+      "message": "ഒരു അവലോകനത്തിൽ ഞങ്ങളെ സഹായിക്കൂ"
+   },
+   "later": {
+      "message": "പിന്നീട്"
+   },
+   "recommend": {
+      "description": "Shown by the recommend button",
+      "message": "ശുപാർശ ചെയ്യുക"
+   },
+   "timesaveInfo": {
+      "description": "Tells the user how many time he saved already.",
+      "message": "Youtube™-നുള്ള Adblock ഏകദേശം സംരക്ഷിച്ചു. നിങ്ങളുടെ ജീവിതകാലത്തെ $savedTime$.",
+      "placeholders": {
+         "savedTime": {
+            "content": "$1",
+            "example": "42"
+         }
+      }
+   },
+   "videoBranding": {
+      "description": "Shown below a video",
+      "message": "YouTube™-നുള്ള Adblock വഴി വൃത്തിയാക്കിയത്"
+   }
+}

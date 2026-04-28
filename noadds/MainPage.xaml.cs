@@ -2,6 +2,7 @@ using Microsoft.Web.WebView2.Core;
 using System;
 using System.Globalization;
 using System.Threading.Tasks;
+using Windows.ApplicationModel;
 using Windows.Gaming.Input;
 using Windows.Storage;
 using Windows.Storage.Pickers;
@@ -17,6 +18,7 @@ namespace noadds
     public sealed partial class MainPage : Page
     {
         private const string HomeUrl = "https://m.youtube.com";
+        private const string BundledExtensionRelativePath = "BundledExtensions\\AdblockForYouTube";
         private const double RightStickDeadZone = 0.2;
         private const double ScrollPixelsPerTick = 48;
         private const string YoutubeAdBlockScript = @"
@@ -245,6 +247,7 @@ namespace noadds
                 BrowserView.CoreWebView2.Settings.AreDevToolsEnabled = true;
                 BrowserView.CoreWebView2.HistoryChanged += CoreWebView2_HistoryChanged;
                 await BrowserView.CoreWebView2.AddScriptToExecuteOnDocumentCreatedAsync(YoutubeAdBlockScript);
+                await TryInstallBundledExtensionAsync();
 
                 isWebViewReady = true;
                 StatusText.Text = "WebView2 listo";
@@ -301,6 +304,11 @@ namespace noadds
                 return;
             }
 
+            if (await TryInstallBundledExtensionAsync())
+            {
+                return;
+            }
+
             FolderPicker picker = new FolderPicker();
             picker.FileTypeFilter.Add("*");
 
@@ -321,6 +329,37 @@ namespace noadds
             catch (Exception ex)
             {
                 StatusText.Text = $"No se pudo instalar la extension: {ex.Message}";
+            }
+        }
+
+        private async Task<bool> TryInstallBundledExtensionAsync()
+        {
+            if (BrowserView.CoreWebView2 is null)
+            {
+                return false;
+            }
+
+            string bundledExtensionPath = System.IO.Path.Combine(
+                Package.Current.InstalledLocation.Path,
+                BundledExtensionRelativePath);
+
+            if (!System.IO.File.Exists(System.IO.Path.Combine(bundledExtensionPath, "manifest.json")))
+            {
+                return false;
+            }
+
+            try
+            {
+                CoreWebView2BrowserExtension extension =
+                    await BrowserView.CoreWebView2.Profile.AddBrowserExtensionAsync(bundledExtensionPath);
+
+                StatusText.Text = $"Extension activa: {extension.Name}";
+                return true;
+            }
+            catch (Exception ex)
+            {
+                StatusText.Text = $"No se pudo activar la extension incluida: {ex.Message}";
+                return false;
             }
         }
 

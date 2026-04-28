@@ -1,0 +1,58 @@
+{
+   "actionTitle": {
+      "message": "Opciók"
+   },
+   "disabled": {
+      "message": "Tiltva"
+   },
+   "displayActionCountAsBadgeText": {
+      "description": "Boolean Option",
+      "message": "A blokkolt kérelmek számának megjelenítése a jelvényben"
+   },
+   "displayVideoBranding": {
+      "description": "Boolean Option",
+      "message": "A bővítmény információinak megjelenítése a videó alatt"
+   },
+   "dontAskAgain": {
+      "message": "Ne kérdezz többet"
+   },
+   "enabled": {
+      "message": "Engedélyezve"
+   },
+   "extensionDescription": {
+      "description": "The description of the application",
+      "message": "Adatvédelmi tudatos, biztonságos Adblock for YouTube™. Blokkolja a hirdetéseket a YouTube.com webhelyen."
+   },
+   "extensionName": {
+      "description": "The name of the application",
+      "message": "Adblock for YouTube™ — best adblocker"
+   },
+   "extensionShortName": {
+      "description": "The short_name (maximum of 12 characters recommended) is a short version of the extension's name.",
+      "message": "Adb YouTube™"
+   },
+   "helpUsWithAReview": {
+      "message": "Segítsen nekünk véleményezéssel"
+   },
+   "later": {
+      "message": "Majd később"
+   },
+   "recommend": {
+      "description": "Shown by the recommend button",
+      "message": "Ajánlom"
+   },
+   "timesaveInfo": {
+      "description": "Tells the user how many time he saved already.",
+      "message": "Adblock for Youtube™ megmentett kb. $savedTime$ az életedből.",
+      "placeholders": {
+         "savedTime": {
+            "content": "$1",
+            "example": "42"
+         }
+      }
+   },
+   "videoBranding": {
+      "description": "Shown below a video",
+      "message": "Megtisztította az Adblock for YouTube™"
+   }
+}

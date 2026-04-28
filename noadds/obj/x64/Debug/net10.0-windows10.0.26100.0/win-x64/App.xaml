@@ -1,0 +1,11 @@
+﻿<Application
+    x:Class="noadds.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:noadds"
+    xmlns:muxc="using:Microsoft.UI.Xaml.Controls">
+    <Application.Resources>
+        <muxc:XamlControlsResources />
+    </Application.Resources>
+</Application>
+

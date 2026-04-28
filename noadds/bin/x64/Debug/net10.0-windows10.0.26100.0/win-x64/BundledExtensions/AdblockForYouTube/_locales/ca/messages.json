@@ -1,0 +1,58 @@
+{
+   "actionTitle": {
+      "message": "Opcions"
+   },
+   "disabled": {
+      "message": "Inhabilitat"
+   },
+   "displayActionCountAsBadgeText": {
+      "description": "Boolean Option",
+      "message": "Mostra el recompte de sol·licituds bloquejades a la insígnia"
+   },
+   "displayVideoBranding": {
+      "description": "Boolean Option",
+      "message": "Mostra la informació de l'extensió a sota del vídeo"
+   },
+   "dontAskAgain": {
+      "message": "No ho tornis a preguntar"
+   },
+   "enabled": {
+      "message": "Habilitat"
+   },
+   "extensionDescription": {
+      "description": "The description of the application",
+      "message": "Adblock segur i conscient de la privadesa per a YouTube™. Bloqueja els anuncis a YouTube.com."
+   },
+   "extensionName": {
+      "description": "The name of the application",
+      "message": "Adblock per a YouTube™ — best adblocker"
+   },
+   "extensionShortName": {
+      "description": "The short_name (maximum of 12 characters recommended) is a short version of the extension's name.",
+      "message": "Adb YouTube™"
+   },
+   "helpUsWithAReview": {
+      "message": "Ajuda'ns amb una revisió"
+   },
+   "later": {
+      "message": "Més tard"
+   },
+   "recommend": {
+      "description": "Shown by the recommend button",
+      "message": "Recomanar"
+   },
+   "timesaveInfo": {
+      "description": "Tells the user how many time he saved already.",
+      "message": "Adblock per a Youtube™ s'ha desat aprox. $savedTime$ de la teva vida.",
+      "placeholders": {
+         "savedTime": {
+            "content": "$1",
+            "example": "42"
+         }
+      }
+   },
+   "videoBranding": {
+      "description": "Shown below a video",
+      "message": "Netejada per Adblock per a YouTube™"
+   }
+}

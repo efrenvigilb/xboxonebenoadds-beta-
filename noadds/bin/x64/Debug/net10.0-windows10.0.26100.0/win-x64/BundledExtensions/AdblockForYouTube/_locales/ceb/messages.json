@@ -1,0 +1,58 @@
+{
+  "extensionName": {
+    "message": "Adblock para sa YouTube™ — best adblocker",
+    "description": "The name of the application"
+  },
+  "extensionShortName": {
+    "message": "Adb YouTube™",
+    "description": "The short_name (maximum of 12 characters recommended) is a short version of the extension's name."
+  },
+  "extensionDescription": {
+    "message": "Nahibal-an sa privacy, luwas ang Adblock alang sa YouTube™. Gibabagan ang mga Advertisement sa YouTube.com.",
+    "description": "The description of the application"
+  },
+  "actionTitle": {
+    "message": "Mga kapilian"
+  },
+  "enabled": {
+    "message": "Gipaandar"
+  },
+  "disabled": {
+    "message": "Nabaldado"
+  },
+  "timesaveInfo": {
+    "message": "Adblock para sa Youtube ™ gitipigan gibanabana. $savedTime$ sa imong tibuok kinabuhi.",
+    "description": "Tells the user how many time he saved already.",
+    "placeholders": {
+      "savedTime": {
+        "content": "$1",
+        "example": "42"
+      }
+    }
+  },
+  "videoBranding": {
+    "message": "Gilimpyohan sa Adblock para sa YouTube™",
+    "description": "Shown below a video"
+  },
+  "displayVideoBranding": {
+    "message": "Ipakita ang impormasyon sa extension sa ubos sa video",
+    "description": "Boolean Option"
+  },
+  "displayActionCountAsBadgeText": {
+    "message": "Ipakita ang gibabagan nga mga hangyo nga ihap sa badge",
+    "description": "Boolean Option"
+  },
+  "recommend": {
+    "message": "Irekomendar",
+    "description": "Shown by the recommend button"
+  },
+  "helpUsWithAReview": {
+    "message": "Tabangi kami sa usa ka Pagrepaso"
+  },
+  "later": {
+    "message": "Sa ulahi"
+  },
+  "dontAskAgain": {
+    "message": "Ayaw na pangutana pag-usab"
+  }
+}

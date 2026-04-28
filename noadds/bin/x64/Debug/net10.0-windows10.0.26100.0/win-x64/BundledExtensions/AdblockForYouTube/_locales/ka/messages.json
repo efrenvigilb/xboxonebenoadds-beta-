@@ -1,0 +1,58 @@
+{
+  "extensionName": {
+    "message": "Adblock YouTube™-ისთვის — best adblocker",
+    "description": "The name of the application"
+  },
+  "extensionShortName": {
+    "message": "Adb YouTube™",
+    "description": "The short_name (maximum of 12 characters recommended) is a short version of the extension's name."
+  },
+  "extensionDescription": {
+    "message": "კონფიდენციალურობის დაცვა, დაცული Adblock YouTube™-ისთვის. ბლოკავს რეკლამებს YouTube.com-ზე.",
+    "description": "The description of the application"
+  },
+  "actionTitle": {
+    "message": "Პარამეტრები"
+  },
+  "enabled": {
+    "message": "ჩართულია"
+  },
+  "disabled": {
+    "message": "გამორთულია"
+  },
+  "timesaveInfo": {
+    "message": "Adblock Youtube™-ისთვის შენახულია დაახლ. თქვენი სიცოცხლის $savedTime$.",
+    "description": "Tells the user how many time he saved already.",
+    "placeholders": {
+      "savedTime": {
+        "content": "$1",
+        "example": "42"
+      }
+    }
+  },
+  "videoBranding": {
+    "message": "გაწმენდილია Adblock-ის მიერ YouTube™-ისთვის",
+    "description": "Shown below a video"
+  },
+  "displayVideoBranding": {
+    "message": "გაფართოების ინფორმაციის ჩვენება ვიდეოს ქვემოთ",
+    "description": "Boolean Option"
+  },
+  "displayActionCountAsBadgeText": {
+    "message": "აჩვენეთ დაბლოკილი მოთხოვნების რაოდენობა ბეჯში",
+    "description": "Boolean Option"
+  },
+  "recommend": {
+    "message": "გირჩევთ",
+    "description": "Shown by the recommend button"
+  },
+  "helpUsWithAReview": {
+    "message": "დაგვეხმარეთ მიმოხილვაში"
+  },
+  "later": {
+    "message": "მოგვიანებით"
+  },
+  "dontAskAgain": {
+    "message": "აღარ გკითხო"
+  }
+}

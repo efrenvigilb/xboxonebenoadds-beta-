@@ -1,0 +1,58 @@
+{
+  "extensionName": {
+    "message": "Adblock yeYouTube™ — best adblocker",
+    "description": "The name of the application"
+  },
+  "extensionShortName": {
+    "message": "Adb YouTube™",
+    "description": "The short_name (maximum of 12 characters recommended) is a short version of the extension's name."
+  },
+  "extensionDescription": {
+    "message": "Kuziva zvakavanzika, yakachengeteka Adblock yeYouTube™. Inovhara Advertisements paYouTube.com.",
+    "description": "The description of the application"
+  },
+  "actionTitle": {
+    "message": "Options"
+  },
+  "enabled": {
+    "message": "Yagoneswa"
+  },
+  "disabled": {
+    "message": "Yakaremara"
+  },
+  "timesaveInfo": {
+    "message": "Adblock yeYouTube™ yakachengetwa approx. $savedTime$ yehupenyu hwako hwose.",
+    "description": "Tells the user how many time he saved already.",
+    "placeholders": {
+      "savedTime": {
+        "content": "$1",
+        "example": "42"
+      }
+    }
+  },
+  "videoBranding": {
+    "message": "Yakacheneswa neAdblock yeYouTube™",
+    "description": "Shown below a video"
+  },
+  "displayVideoBranding": {
+    "message": "Ratidza ruzivo rwekuwedzera pazasi vhidhiyo",
+    "description": "Boolean Option"
+  },
+  "displayActionCountAsBadgeText": {
+    "message": "Ratidza zvikumbiro zvakavharwa mubheji",
+    "description": "Boolean Option"
+  },
+  "recommend": {
+    "message": "Recommend",
+    "description": "Shown by the recommend button"
+  },
+  "helpUsWithAReview": {
+    "message": "Tibatsireiwo neOngororo"
+  },
+  "later": {
+    "message": "Gare gare"
+  },
+  "dontAskAgain": {
+    "message": "Usabvunze zvakare"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "extensionName": {
+    "message": "אַדבלאָקק פֿאַר יאָוטובע ™ — best adblocker",
+    "description": "The name of the application"
+  },
+  "extensionShortName": {
+    "message": "אַדב יאָוטובע ™",
+    "description": "The short_name (maximum of 12 characters recommended) is a short version of the extension's name."
+  },
+  "extensionDescription": {
+    "message": "פּריוואַטקייט אַווער, זיכער אַדבלאָקקער פֿאַר יאָוטובע ™. בלאַקס אַדווערטייזמאַנץ אויף YouTube.com.",
+    "description": "The description of the application"
+  },
+  "actionTitle": {
+    "message": "אָפּציעס"
+  },
+  "enabled": {
+    "message": "ערמעגליכט"
+  },
+  "disabled": {
+    "message": "פאַרקריפּלט"
+  },
+  "timesaveInfo": {
+    "message": "אַדבלאָקק פֿאַר יאָוטובע ™ געראטעוועט בעערעך. $savedTime$ פון דיין לעבן.",
+    "description": "Tells the user how many time he saved already.",
+    "placeholders": {
+      "savedTime": {
+        "content": "$1",
+        "example": "42"
+      }
+    }
+  },
+  "videoBranding": {
+    "message": "קלינד דורך אַדבלאָקק פֿאַר יאָוטובע ™",
+    "description": "Shown below a video"
+  },
+  "displayVideoBranding": {
+    "message": "ווייַזן פאַרלענגערונג אינפֿאָרמאַציע אונטן ווידעא",
+    "description": "Boolean Option"
+  },
+  "displayActionCountAsBadgeText": {
+    "message": "ווייַזן בלאַקט ריקוועס ציילן אין אָפּצייכן",
+    "description": "Boolean Option"
+  },
+  "recommend": {
+    "message": "רעקאָמענדירן",
+    "description": "Shown by the recommend button"
+  },
+  "helpUsWithAReview": {
+    "message": "הילף אונדז מיט אַ רעצענזיע"
+  },
+  "later": {
+    "message": "שפּעטער"
+  },
+  "dontAskAgain": {
+    "message": "פרעג נישט ווידער"
+  }
+}

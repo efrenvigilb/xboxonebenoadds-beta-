@@ -1,0 +1,58 @@
+{
+   "actionTitle": {
+      "message": "Iespējas"
+   },
+   "disabled": {
+      "message": "Atspējots"
+   },
+   "displayActionCountAsBadgeText": {
+      "description": "Boolean Option",
+      "message": "Rādīt bloķēto pieprasījumu skaitu emblēmā"
+   },
+   "displayVideoBranding": {
+      "description": "Boolean Option",
+      "message": "Rādīt paplašinājuma informāciju zem videoklipa"
+   },
+   "dontAskAgain": {
+      "message": "Neprasi vēlreiz"
+   },
+   "enabled": {
+      "message": "Iespējots"
+   },
+   "extensionDescription": {
+      "description": "The description of the application",
+      "message": "Privātuma apzinīgs, drošs reklāmu bloķētājs pakalpojumam YouTube™. Bloķē reklāmas vietnē YouTube.com."
+   },
+   "extensionName": {
+      "description": "The name of the application",
+      "message": "Reklāmu bloķēšana pakalpojumam YouTube™"
+   },
+   "extensionShortName": {
+      "description": "The short_name (maximum of 12 characters recommended) is a short version of the extension's name.",
+      "message": "Adb YouTube™"
+   },
+   "helpUsWithAReview": {
+      "message": "Palīdziet mums ar pārskatu"
+   },
+   "later": {
+      "message": "Vēlāk"
+   },
+   "recommend": {
+      "description": "Shown by the recommend button",
+      "message": "Ieteikt"
+   },
+   "timesaveInfo": {
+      "description": "Tells the user how many time he saved already.",
+      "message": "Adblock vietnei Youtube™ ir saglabāts apm. $savedTime$ no jūsu dzīves.",
+      "placeholders": {
+         "savedTime": {
+            "content": "$1",
+            "example": "42"
+         }
+      }
+   },
+   "videoBranding": {
+      "description": "Shown below a video",
+      "message": "Iztīrīts ar Adblock for YouTube™"
+   }
+}

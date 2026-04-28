@@ -1,0 +1,58 @@
+{
+  "extensionName": {
+    "message": "Adblock pro YouTube™ — best adblocker",
+    "description": "The name of the application"
+  },
+  "extensionShortName": {
+    "message": "Adb YouTube™",
+    "description": "The short_name (maximum of 12 characters recommended) is a short version of the extension's name."
+  },
+  "extensionDescription": {
+    "message": "Secretum conscientiam, securum Adblock pro YouTube™. Advertisements in YouTube.com impedit.",
+    "description": "The description of the application"
+  },
+  "actionTitle": {
+    "message": "Optiones"
+  },
+  "enabled": {
+    "message": "Enabled"
+  },
+  "disabled": {
+    "message": "debilitatum"
+  },
+  "timesaveInfo": {
+    "message": "Adblock pro Youtube™ proxime servatum est. $savedTime$ of your life.",
+    "description": "Tells the user how many time he saved already.",
+    "placeholders": {
+      "savedTime": {
+        "content": "$1",
+        "example": "42"
+      }
+    }
+  },
+  "videoBranding": {
+    "message": "Mundatum ab Adblock pro YouTube™",
+    "description": "Shown below a video"
+  },
+  "displayVideoBranding": {
+    "message": "Ostende extensionem info infra video",
+    "description": "Boolean Option"
+  },
+  "displayActionCountAsBadgeText": {
+    "message": "Insigne petitiones monstrare clausus numerare",
+    "description": "Boolean Option"
+  },
+  "recommend": {
+    "message": "Suadeo",
+    "description": "Shown by the recommend button"
+  },
+  "helpUsWithAReview": {
+    "message": "Adiuva nos cum Review"
+  },
+  "later": {
+    "message": "Postea"
+  },
+  "dontAskAgain": {
+    "message": "Noli quaerere iterum"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "extensionName": {
+    "message": "Adblock за YouTube™ — best adblocker",
+    "description": "The name of the application"
+  },
+  "extensionShortName": {
+    "message": "Adb YouTube™",
+    "description": "The short_name (maximum of 12 characters recommended) is a short version of the extension's name."
+  },
+  "extensionDescription": {
+    "message": "Свесен за приватност, безбеден Adblock за YouTube™. Блокира реклами на YouTube.com.",
+    "description": "The description of the application"
+  },
+  "actionTitle": {
+    "message": "Опции"
+  },
+  "enabled": {
+    "message": "Овозможено"
+  },
+  "disabled": {
+    "message": "Оневозможено"
+  },
+  "timesaveInfo": {
+    "message": "Adblock за Youtube™ е зачуван прибл. $savedTime$ од вашиот животен век.",
+    "description": "Tells the user how many time he saved already.",
+    "placeholders": {
+      "savedTime": {
+        "content": "$1",
+        "example": "42"
+      }
+    }
+  },
+  "videoBranding": {
+    "message": "Исчистено од Adblock за YouTube™",
+    "description": "Shown below a video"
+  },
+  "displayVideoBranding": {
+    "message": "Прикажи ги информациите за екстензијата под видеото",
+    "description": "Boolean Option"
+  },
+  "displayActionCountAsBadgeText": {
+    "message": "Прикажи го бројот на блокирани барања во значката",
+    "description": "Boolean Option"
+  },
+  "recommend": {
+    "message": "Препорачај",
+    "description": "Shown by the recommend button"
+  },
+  "helpUsWithAReview": {
+    "message": "Помогнете ни со преглед"
+  },
+  "later": {
+    "message": "Подоцна"
+  },
+  "dontAskAgain": {
+    "message": "Не прашувај повторно"
+  }
+}

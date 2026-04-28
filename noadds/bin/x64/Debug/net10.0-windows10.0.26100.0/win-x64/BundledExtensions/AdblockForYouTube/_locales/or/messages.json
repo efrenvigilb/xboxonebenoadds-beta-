@@ -1,0 +1,58 @@
+{
+  "extensionName": {
+    "message": "ୟୁଟ୍ୟୁବ୍ ପାଇଁ ଆଡବ୍ଲକ୍ ™ | — best adblocker",
+    "description": "The name of the application"
+  },
+  "extensionShortName": {
+    "message": "Adb YouTube ™",
+    "description": "The short_name (maximum of 12 characters recommended) is a short version of the extension's name."
+  },
+  "extensionDescription": {
+    "message": "ଗୋପନୀୟତା ସଚେତନ, ୟୁଟ୍ୟୁବ୍ ପାଇଁ ସୁରକ୍ଷିତ ଆଡବ୍ଲକର୍ ™ | ୟୁଟ୍ୟୁବ୍ ଡଟ୍ କମ୍ରେ ବିଜ୍ଞାପନଗୁଡିକ ଅବରୋଧ କରେ |",
+    "description": "The description of the application"
+  },
+  "actionTitle": {
+    "message": "ବିକଳ୍ପଗୁଡ଼ିକ"
+  },
+  "enabled": {
+    "message": "ସକ୍ଷମ"
+  },
+  "disabled": {
+    "message": "ଅକ୍ଷମ"
+  },
+  "timesaveInfo": {
+    "message": "Youtube ™ ପାଇଁ ଆଡବ୍ଲକ୍ ପାଖାପାଖି ସଞ୍ଚୟ ହୋଇଛି | ଆପଣଙ୍କ ଜୀବନକାଳର $savedTime$ |",
+    "description": "Tells the user how many time he saved already.",
+    "placeholders": {
+      "savedTime": {
+        "content": "$1",
+        "example": "42"
+      }
+    }
+  },
+  "videoBranding": {
+    "message": "ୟୁଟ୍ୟୁବ୍ ™ ପାଇଁ ଆଡବ୍ଲକ୍ ଦ୍ୱାରା ସଫା କରାଯାଇଛି |",
+    "description": "Shown below a video"
+  },
+  "displayVideoBranding": {
+    "message": "ଭିଡିଓ ତଳେ ଏକ୍ସଟେନ୍ସନ୍ ସୂଚନା ଦେଖାନ୍ତୁ |",
+    "description": "Boolean Option"
+  },
+  "displayActionCountAsBadgeText": {
+    "message": "ବ୍ୟାଜରେ ଅବରୋଧିତ ଅନୁରୋଧଗୁଡିକ ଗଣନା କରନ୍ତୁ |",
+    "description": "Boolean Option"
+  },
+  "recommend": {
+    "message": "ସୁପାରିଶ କରନ୍ତୁ |",
+    "description": "Shown by the recommend button"
+  },
+  "helpUsWithAReview": {
+    "message": "ଏକ ସମୀକ୍ଷା ସହିତ ଆମକୁ ସାହାଯ୍ୟ କରନ୍ତୁ |"
+  },
+  "later": {
+    "message": "ପରେ"
+  },
+  "dontAskAgain": {
+    "message": "ପୁନର୍ବାର ପଚାର ନାହିଁ |"
+  }
+}

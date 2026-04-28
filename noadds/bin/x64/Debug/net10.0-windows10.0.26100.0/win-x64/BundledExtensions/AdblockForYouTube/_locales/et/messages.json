@@ -1,0 +1,58 @@
+{
+   "actionTitle": {
+      "message": "Valikud"
+   },
+   "disabled": {
+      "message": "Keelatud"
+   },
+   "displayActionCountAsBadgeText": {
+      "description": "Boolean Option",
+      "message": "Kuva blokeeritud taotluste arv märgil"
+   },
+   "displayVideoBranding": {
+      "description": "Boolean Option",
+      "message": "Kuva laienduse teave video all"
+   },
+   "dontAskAgain": {
+      "message": "Ära enam küsi"
+   },
+   "enabled": {
+      "message": "Lubatud"
+   },
+   "extensionDescription": {
+      "description": "The description of the application",
+      "message": "Privaatsustundlik, turvaline YouTube™-i reklaamiblokeerija. Blokeerib reklaamid saidil YouTube.com."
+   },
+   "extensionName": {
+      "description": "The name of the application",
+      "message": "Adblock YouTube™ jaoks — best adblocker"
+   },
+   "extensionShortName": {
+      "description": "The short_name (maximum of 12 characters recommended) is a short version of the extension's name.",
+      "message": "Adb YouTube™"
+   },
+   "helpUsWithAReview": {
+      "message": "Aidake meid ülevaatega"
+   },
+   "later": {
+      "message": "Hiljem"
+   },
+   "recommend": {
+      "description": "Shown by the recommend button",
+      "message": "Soovita"
+   },
+   "timesaveInfo": {
+      "description": "Tells the user how many time he saved already.",
+      "message": "Adblock for Youtube™ säästis ca. $savedTime$ oma elueast.",
+      "placeholders": {
+         "savedTime": {
+            "content": "$1",
+            "example": "42"
+         }
+      }
+   },
+   "videoBranding": {
+      "description": "Shown below a video",
+      "message": "Puhastanud Adblock for YouTube™"
+   }
+}

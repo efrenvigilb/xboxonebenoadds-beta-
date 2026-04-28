@@ -1,0 +1,58 @@
+{
+  "extensionName": {
+    "message": "YouTube™ ਲਈ ਐਡਬਲਾਕ — best adblocker",
+    "description": "The name of the application"
+  },
+  "extensionShortName": {
+    "message": "Adb YouTube™",
+    "description": "The short_name (maximum of 12 characters recommended) is a short version of the extension's name."
+  },
+  "extensionDescription": {
+    "message": "ਗੋਪਨੀਯਤਾ ਜਾਗਰੂਕ, YouTube™ ਲਈ ਸੁਰੱਖਿਅਤ ਐਡਬਲੌਕਰ। YouTube.com 'ਤੇ ਇਸ਼ਤਿਹਾਰਾਂ ਨੂੰ ਰੋਕਦਾ ਹੈ।",
+    "description": "The description of the application"
+  },
+  "actionTitle": {
+    "message": "ਵਿਕਲਪ"
+  },
+  "enabled": {
+    "message": "ਸਮਰਥਿਤ"
+  },
+  "disabled": {
+    "message": "ਅਯੋਗ"
+  },
+  "timesaveInfo": {
+    "message": "Youtube™ ਲਈ ਐਡਬਲਾਕ ਲਗਭਗ ਸੁਰੱਖਿਅਤ ਕੀਤਾ ਗਿਆ। ਤੁਹਾਡੇ ਜੀਵਨ ਕਾਲ ਦਾ $savedTime$।",
+    "description": "Tells the user how many time he saved already.",
+    "placeholders": {
+      "savedTime": {
+        "content": "$1",
+        "example": "42"
+      }
+    }
+  },
+  "videoBranding": {
+    "message": "YouTube™ ਲਈ ਐਡਬਲਾਕ ਦੁਆਰਾ ਸਾਫ਼ ਕੀਤਾ ਗਿਆ",
+    "description": "Shown below a video"
+  },
+  "displayVideoBranding": {
+    "message": "ਵੀਡੀਓ ਹੇਠਾਂ ਐਕਸਟੈਂਸ਼ਨ ਜਾਣਕਾਰੀ ਦਿਖਾਓ",
+    "description": "Boolean Option"
+  },
+  "displayActionCountAsBadgeText": {
+    "message": "ਬੈਜ ਵਿੱਚ ਬਲੌਕ ਕੀਤੀਆਂ ਬੇਨਤੀਆਂ ਦੀ ਗਿਣਤੀ ਦਿਖਾਓ",
+    "description": "Boolean Option"
+  },
+  "recommend": {
+    "message": "ਦੀ ਸਿਫ਼ਾਰਸ਼ ਕਰੋ",
+    "description": "Shown by the recommend button"
+  },
+  "helpUsWithAReview": {
+    "message": "ਸਮੀਖਿਆ ਵਿੱਚ ਸਾਡੀ ਮਦਦ ਕਰੋ"
+  },
+  "later": {
+    "message": "ਬਾਅਦ ਵਿੱਚ"
+  },
+  "dontAskAgain": {
+    "message": "ਦੁਬਾਰਾ ਨਾ ਪੁੱਛੋ"
+  }
+}

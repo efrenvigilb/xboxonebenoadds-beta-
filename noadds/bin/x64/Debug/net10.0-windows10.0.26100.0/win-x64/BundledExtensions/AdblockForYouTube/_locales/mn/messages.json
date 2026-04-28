@@ -1,0 +1,58 @@
+{
+  "extensionName": {
+    "message": "YouTube™-д зориулсан Adblock — best adblocker",
+    "description": "The name of the application"
+  },
+  "extensionShortName": {
+    "message": "Adb YouTube™",
+    "description": "The short_name (maximum of 12 characters recommended) is a short version of the extension's name."
+  },
+  "extensionDescription": {
+    "message": "Хувийн нууцлалыг мэддэг, аюулгүй Adblock for YouTube™. YouTube.com дээрх зар сурталчилгааг блоклодог.",
+    "description": "The description of the application"
+  },
+  "actionTitle": {
+    "message": "Сонголтууд"
+  },
+  "enabled": {
+    "message": "Идэвхжүүлсэн"
+  },
+  "disabled": {
+    "message": "Идэвхгүй"
+  },
+  "timesaveInfo": {
+    "message": "Youtube™-д зориулсан Adblock ойролцоогоор хадгалагдсан. Таны амьдралын $savedTime$.",
+    "description": "Tells the user how many time he saved already.",
+    "placeholders": {
+      "savedTime": {
+        "content": "$1",
+        "example": "42"
+      }
+    }
+  },
+  "videoBranding": {
+    "message": "YouTube™-д зориулсан Adblock-оор цэвэрлэсэн",
+    "description": "Shown below a video"
+  },
+  "displayVideoBranding": {
+    "message": "Видеоны доор өргөтгөлийн мэдээллийг харуул",
+    "description": "Boolean Option"
+  },
+  "displayActionCountAsBadgeText": {
+    "message": "Тэмдэгт блоклогдсон хүсэлтийн тоог харуул",
+    "description": "Boolean Option"
+  },
+  "recommend": {
+    "message": "Санал болгож байна",
+    "description": "Shown by the recommend button"
+  },
+  "helpUsWithAReview": {
+    "message": "Шүүмж бичихэд бидэнд тусална уу"
+  },
+  "later": {
+    "message": "Дараа нь"
+  },
+  "dontAskAgain": {
+    "message": "Дахиж битгий асуу"
+  }
+}

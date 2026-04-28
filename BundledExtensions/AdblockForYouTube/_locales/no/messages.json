@@ -1,0 +1,58 @@
+{
+   "actionTitle": {
+      "message": "Alternativer"
+   },
+   "disabled": {
+      "message": "Funksjonshemmet"
+   },
+   "displayActionCountAsBadgeText": {
+      "description": "Boolean Option",
+      "message": "Vis antall blokkerte forespørsler i merket"
+   },
+   "displayVideoBranding": {
+      "description": "Boolean Option",
+      "message": "Vis utvidelsesinformasjon under videoen"
+   },
+   "dontAskAgain": {
+      "message": "Ikke spør igjen"
+   },
+   "enabled": {
+      "message": "Aktivert"
+   },
+   "extensionDescription": {
+      "description": "The description of the application",
+      "message": "Personvernbevisst, sikker Adblock for YouTube™. Blokkerer annonser på YouTube.com."
+   },
+   "extensionName": {
+      "description": "The name of the application",
+      "message": "Adblock for YouTube™ — best adblocker"
+   },
+   "extensionShortName": {
+      "description": "The short_name (maximum of 12 characters recommended) is a short version of the extension's name.",
+      "message": "Adb YouTube™"
+   },
+   "helpUsWithAReview": {
+      "message": "Hjelp oss med en anmeldelse"
+   },
+   "later": {
+      "message": "Seinere"
+   },
+   "recommend": {
+      "description": "Shown by the recommend button",
+      "message": "Anbefale"
+   },
+   "timesaveInfo": {
+      "description": "Tells the user how many time he saved already.",
+      "message": "Adblock for Youtube™ sparte ca. $savedTime$ av livet ditt.",
+      "placeholders": {
+         "savedTime": {
+            "content": "$1",
+            "example": "42"
+         }
+      }
+   },
+   "videoBranding": {
+      "description": "Shown below a video",
+      "message": "Rengjort av Adblock for YouTube™"
+   }
+}

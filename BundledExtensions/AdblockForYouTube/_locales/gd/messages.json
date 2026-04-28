@@ -1,0 +1,58 @@
+{
+  "extensionName": {
+    "message": "Adblock airson YouTube™ — best adblocker",
+    "description": "The name of the application"
+  },
+  "extensionShortName": {
+    "message": "Adb YouTube™",
+    "description": "The short_name (maximum of 12 characters recommended) is a short version of the extension's name."
+  },
+  "extensionDescription": {
+    "message": "Mothachadh air prìobhaideachd, Adblock tèarainte airson YouTube ™. A’ cur casg air sanasan air YouTube.com.",
+    "description": "The description of the application"
+  },
+  "actionTitle": {
+    "message": "Roghainnean"
+  },
+  "enabled": {
+    "message": "Air a chomasachadh"
+  },
+  "disabled": {
+    "message": "Ciorramach"
+  },
+  "timesaveInfo": {
+    "message": "Shàbhail Adblock airson Youtube™ timcheall air. $savedTime$ de do bheatha.",
+    "description": "Tells the user how many time he saved already.",
+    "placeholders": {
+      "savedTime": {
+        "content": "$1",
+        "example": "42"
+      }
+    }
+  },
+  "videoBranding": {
+    "message": "Air a ghlanadh le Adblock airson YouTube™",
+    "description": "Shown below a video"
+  },
+  "displayVideoBranding": {
+    "message": "Seall fiosrachadh leudachaidh fon bhidio",
+    "description": "Boolean Option"
+  },
+  "displayActionCountAsBadgeText": {
+    "message": "Seall na h-iarrtasan dùinte a’ cunntadh sa bhràiste",
+    "description": "Boolean Option"
+  },
+  "recommend": {
+    "message": "Moladh",
+    "description": "Shown by the recommend button"
+  },
+  "helpUsWithAReview": {
+    "message": "Cuidich sinn le Lèirmheas"
+  },
+  "later": {
+    "message": "Nas fhaide air adhart"
+  },
+  "dontAskAgain": {
+    "message": "Na faighnich a-rithist"
+  }
+}

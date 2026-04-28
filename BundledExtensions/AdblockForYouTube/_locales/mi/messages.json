@@ -1,0 +1,58 @@
+{
+  "extensionName": {
+    "message": "Adblock mo YouTube™ — best adblocker",
+    "description": "The name of the application"
+  },
+  "extensionShortName": {
+    "message": "Adb YouTube™",
+    "description": "The short_name (maximum of 12 characters recommended) is a short version of the extension's name."
+  },
+  "extensionDescription": {
+    "message": "E mohio ana ki a koe mo te noho tūmataiti, haumaru Adblock mo YouTube™. Ka aukati i nga Panuitanga i runga i YouTube.com.",
+    "description": "The description of the application"
+  },
+  "actionTitle": {
+    "message": "Kōwhiringa"
+  },
+  "enabled": {
+    "message": "Whakahohe"
+  },
+  "disabled": {
+    "message": "Kua haua"
+  },
+  "timesaveInfo": {
+    "message": "Adblock mo Youtube ™ kua tiakina tata. $savedTime$ o to oranga.",
+    "description": "Tells the user how many time he saved already.",
+    "placeholders": {
+      "savedTime": {
+        "content": "$1",
+        "example": "42"
+      }
+    }
+  },
+  "videoBranding": {
+    "message": "Kua horoia e Adblock mo YouTube™",
+    "description": "Shown below a video"
+  },
+  "displayVideoBranding": {
+    "message": "Whakaatuhia nga korero toronga i raro i te ataata",
+    "description": "Boolean Option"
+  },
+  "displayActionCountAsBadgeText": {
+    "message": "Whakaatuhia nga tono kua araia e tatau ana ki te tohu",
+    "description": "Boolean Option"
+  },
+  "recommend": {
+    "message": "Tohutohu",
+    "description": "Shown by the recommend button"
+  },
+  "helpUsWithAReview": {
+    "message": "Awhinatia matou ki te Arotake"
+  },
+  "later": {
+    "message": "I muri mai"
+  },
+  "dontAskAgain": {
+    "message": "Kaua e patai ano"
+  }
+}

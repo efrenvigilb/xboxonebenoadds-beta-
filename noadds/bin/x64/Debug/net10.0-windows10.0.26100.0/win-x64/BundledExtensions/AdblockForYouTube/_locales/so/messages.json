@@ -1,0 +1,58 @@
+{
+  "extensionName": {
+    "message": "Xayeysiiska YouTube™ — best adblocker",
+    "description": "The name of the application"
+  },
+  "extensionShortName": {
+    "message": "Adb YouTube™",
+    "description": "The short_name (maximum of 12 characters recommended) is a short version of the extension's name."
+  },
+  "extensionDescription": {
+    "message": "Qarsoodi og, Adblock aamin ah YouTube™. Wuxuu xannibaa xayaysiisyada YouTube.com",
+    "description": "The description of the application"
+  },
+  "actionTitle": {
+    "message": "Ikhtiyaarada"
+  },
+  "enabled": {
+    "message": "Hawl gal"
+  },
+  "disabled": {
+    "message": "Naafada"
+  },
+  "timesaveInfo": {
+    "message": "Xayeysiiska Youtube™ ee la kaydiyay qiyaastii. $savedTime$ ee noloshaada.",
+    "description": "Tells the user how many time he saved already.",
+    "placeholders": {
+      "savedTime": {
+        "content": "$1",
+        "example": "42"
+      }
+    }
+  },
+  "videoBranding": {
+    "message": "Waxaa nadiifiyay Adblock YouTube™",
+    "description": "Shown below a video"
+  },
+  "displayVideoBranding": {
+    "message": "Hoos ku muuji macluumaadka fidinta",
+    "description": "Boolean Option"
+  },
+  "displayActionCountAsBadgeText": {
+    "message": "Muuji codsiyada la xannibay oo ku jira calaamad",
+    "description": "Boolean Option"
+  },
+  "recommend": {
+    "message": "ku talin",
+    "description": "Shown by the recommend button"
+  },
+  "helpUsWithAReview": {
+    "message": "Naga caawi dib u eegis"
+  },
+  "later": {
+    "message": "Ka dib"
+  },
+  "dontAskAgain": {
+    "message": "Mar dambe ha weydiin"
+  }
+}

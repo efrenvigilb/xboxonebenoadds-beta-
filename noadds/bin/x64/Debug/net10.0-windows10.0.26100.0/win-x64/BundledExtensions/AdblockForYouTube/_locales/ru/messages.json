@@ -1,0 +1,58 @@
+{
+   "actionTitle": {
+      "message": "Опции"
+   },
+   "disabled": {
+      "message": "Неполноценный"
+   },
+   "displayActionCountAsBadgeText": {
+      "description": "Boolean Option",
+      "message": "Показывать количество заблокированных запросов в значке"
+   },
+   "displayVideoBranding": {
+      "description": "Boolean Option",
+      "message": "Показать информацию о расширении под видео"
+   },
+   "dontAskAgain": {
+      "message": "Больше не спрашивай"
+   },
+   "enabled": {
+      "message": "Включено"
+   },
+   "extensionDescription": {
+      "description": "The description of the application",
+      "message": "Защита конфиденциальности, безопасный блокировщик рекламы для YouTube™. Блокирует рекламу на YouTube.com."
+   },
+   "extensionName": {
+      "description": "The name of the application",
+      "message": "Блокировщик рекламы для YouTube™ — best adblocker"
+   },
+   "extensionShortName": {
+      "description": "The short_name (maximum of 12 characters recommended) is a short version of the extension's name.",
+      "message": "Adb YouTube™"
+   },
+   "helpUsWithAReview": {
+      "message": "Помогите нам с обзором"
+   },
+   "later": {
+      "message": "Позже"
+   },
+   "recommend": {
+      "description": "Shown by the recommend button",
+      "message": "Рекомендовать"
+   },
+   "timesaveInfo": {
+      "description": "Tells the user how many time he saved already.",
+      "message": "Adblock для Youtube™ сэкономил прибл. $savedTime$ вашей жизни.",
+      "placeholders": {
+         "savedTime": {
+            "content": "$1",
+            "example": "42"
+         }
+      }
+   },
+   "videoBranding": {
+      "description": "Shown below a video",
+      "message": "Очищено Adblock для YouTube™"
+   }
+}

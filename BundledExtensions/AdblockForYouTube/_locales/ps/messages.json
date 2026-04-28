@@ -1,0 +1,58 @@
+{
+  "extensionName": {
+    "message": "د YouTube™ لپاره اډ بلاک",
+    "description": "The name of the application"
+  },
+  "extensionShortName": {
+    "message": "Adb YouTube™",
+    "description": "The short_name (maximum of 12 characters recommended) is a short version of the extension's name."
+  },
+  "extensionDescription": {
+    "message": "د محرمیت خبرتیا، د YouTube™ لپاره خوندي اډ بلاکر. په YouTube.com کې اعلانونه بندوي.",
+    "description": "The description of the application"
+  },
+  "actionTitle": {
+    "message": "اختیارونه"
+  },
+  "enabled": {
+    "message": "فعال شوی"
+  },
+  "disabled": {
+    "message": "معلول"
+  },
+  "timesaveInfo": {
+    "message": "د یوټیوب لپاره اډ بلاک شاوخوا خوندي شوی. ستاسو د ژوند $ $savedTime$خ",
+    "description": "Tells the user how many time he saved already.",
+    "placeholders": {
+      "savedTime": {
+        "content": "$1",
+        "example": "42"
+      }
+    }
+  },
+  "videoBranding": {
+    "message": "د YouTube™ لپاره د اډ بلاک لخوا پاک شوی",
+    "description": "Shown below a video"
+  },
+  "displayVideoBranding": {
+    "message": "لاندې ویډیو کې د تمدید معلومات وښایاست",
+    "description": "Boolean Option"
+  },
+  "displayActionCountAsBadgeText": {
+    "message": "په بیج کې د بلاک شوي غوښتنې شمیره وښایاست",
+    "description": "Boolean Option"
+  },
+  "recommend": {
+    "message": "سپارښتنه کوي",
+    "description": "Shown by the recommend button"
+  },
+  "helpUsWithAReview": {
+    "message": "موږ سره د بیاکتنې سره مرسته وکړئ"
+  },
+  "later": {
+    "message": "وروسته"
+  },
+  "dontAskAgain": {
+    "message": "بیا پوښتنه مه کوئ"
+  }
+}

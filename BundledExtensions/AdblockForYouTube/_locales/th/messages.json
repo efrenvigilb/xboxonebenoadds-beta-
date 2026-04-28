@@ -1,0 +1,58 @@
+{
+   "actionTitle": {
+      "message": "ตัวเลือก"
+   },
+   "disabled": {
+      "message": "พิการ"
+   },
+   "displayActionCountAsBadgeText": {
+      "description": "Boolean Option",
+      "message": "แสดงจำนวนคำขอที่ถูกบล็อกในป้าย"
+   },
+   "displayVideoBranding": {
+      "description": "Boolean Option",
+      "message": "แสดงข้อมูลส่วนขยายด้านล่างวิดีโอ"
+   },
+   "dontAskAgain": {
+      "message": "อย่าถามอีก"
+   },
+   "enabled": {
+      "message": "เปิดใช้งาน"
+   },
+   "extensionDescription": {
+      "description": "The description of the application",
+      "message": "ตระหนักถึงความเป็นส่วนตัว Adblock ที่ปลอดภัยสำหรับ YouTube™ บล็อกโฆษณาบน YouTube.com"
+   },
+   "extensionName": {
+      "description": "The name of the application",
+      "message": "Adblock สำหรับ YouTube™ — best adblocker"
+   },
+   "extensionShortName": {
+      "description": "The short_name (maximum of 12 characters recommended) is a short version of the extension's name.",
+      "message": "Adb YouTube™"
+   },
+   "helpUsWithAReview": {
+      "message": "ช่วยเราด้วยรีวิว"
+   },
+   "later": {
+      "message": "ภายหลัง"
+   },
+   "recommend": {
+      "description": "Shown by the recommend button",
+      "message": "แนะนำ"
+   },
+   "timesaveInfo": {
+      "description": "Tells the user how many time he saved already.",
+      "message": "Adblock สำหรับ Youtube™ บันทึกไว้ประมาณ $savedTime$ ตลอดชีวิตของคุณ",
+      "placeholders": {
+         "savedTime": {
+            "content": "$1",
+            "example": "42"
+         }
+      }
+   },
+   "videoBranding": {
+      "description": "Shown below a video",
+      "message": "ทำความสะอาดโดย Adblock สำหรับ YouTube™"
+   }
+}

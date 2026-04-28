@@ -1,0 +1,58 @@
+{
+   "actionTitle": {
+      "message": "옵션"
+   },
+   "disabled": {
+      "message": "장애가있는"
+   },
+   "displayActionCountAsBadgeText": {
+      "description": "Boolean Option",
+      "message": "배지에 차단된 요청 수 표시"
+   },
+   "displayVideoBranding": {
+      "description": "Boolean Option",
+      "message": "동영상 아래에 확장 정보 표시"
+   },
+   "dontAskAgain": {
+      "message": "다시 묻지 마세요"
+   },
+   "enabled": {
+      "message": "활성화됨"
+   },
+   "extensionDescription": {
+      "description": "The description of the application",
+      "message": "YouTube™용 개인 정보 보호 보안 Adblock. YouTube.com에서 광고를 차단합니다."
+   },
+   "extensionName": {
+      "description": "The name of the application",
+      "message": "YouTube™용 Adblock — best adblocker"
+   },
+   "extensionShortName": {
+      "description": "The short_name (maximum of 12 characters recommended) is a short version of the extension's name.",
+      "message": "애드브 유튜브™"
+   },
+   "helpUsWithAReview": {
+      "message": "리뷰를 도와주세요"
+   },
+   "later": {
+      "message": "나중"
+   },
+   "recommend": {
+      "description": "Shown by the recommend button",
+      "message": "추천하다"
+   },
+   "timesaveInfo": {
+      "description": "Tells the user how many time he saved already.",
+      "message": "YouTube™용 Adblock은 약 평생의 $savedTime$.",
+      "placeholders": {
+         "savedTime": {
+            "content": "$1",
+            "example": "42"
+         }
+      }
+   },
+   "videoBranding": {
+      "description": "Shown below a video",
+      "message": "YouTube™용 Adblock으로 정리"
+   }
+}

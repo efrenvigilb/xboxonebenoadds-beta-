@@ -1,0 +1,58 @@
+{
+   "actionTitle": {
+      "message": "Opcije"
+   },
+   "disabled": {
+      "message": "Onemogočeno"
+   },
+   "displayActionCountAsBadgeText": {
+      "description": "Boolean Option",
+      "message": "Pokaži število blokiranih zahtev v znački"
+   },
+   "displayVideoBranding": {
+      "description": "Boolean Option",
+      "message": "Prikaži informacije o razširitvi pod videoposnetkom"
+   },
+   "dontAskAgain": {
+      "message": "Ne sprašuj znova"
+   },
+   "enabled": {
+      "message": "Omogočeno"
+   },
+   "extensionDescription": {
+      "description": "The description of the application",
+      "message": "Varen program za blokiranje oglasov za YouTube™, ki se zaveda zasebnosti. Blokira oglase na YouTube.com."
+   },
+   "extensionName": {
+      "description": "The name of the application",
+      "message": "Adblock za YouTube™ — best adblocker"
+   },
+   "extensionShortName": {
+      "description": "The short_name (maximum of 12 characters recommended) is a short version of the extension's name.",
+      "message": "Adb YouTube™"
+   },
+   "helpUsWithAReview": {
+      "message": "Pomagajte nam s pregledom"
+   },
+   "later": {
+      "message": "kasneje"
+   },
+   "recommend": {
+      "description": "Shown by the recommend button",
+      "message": "priporočam"
+   },
+   "timesaveInfo": {
+      "description": "Tells the user how many time he saved already.",
+      "message": "Adblock za Youtube™ je prihranil pribl. $savedTime$ svojega življenja.",
+      "placeholders": {
+         "savedTime": {
+            "content": "$1",
+            "example": "42"
+         }
+      }
+   },
+   "videoBranding": {
+      "description": "Shown below a video",
+      "message": "Očiščeno z Adblock za YouTube™"
+   }
+}

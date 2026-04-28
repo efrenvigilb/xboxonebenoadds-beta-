@@ -1,0 +1,44 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\factupid\\source\\repos\\noadds\\noadds\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7FDB5A08-5695-0ECF-4A6A-BE4A60D618A6}|noadds\\noadds.csproj|c:\\users\\factupid\\source\\repos\\noadds\\noadds\\noadds\\assets\\lockscreenlogo.scale-200.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{7FDB5A08-5695-0ECF-4A6A-BE4A60D618A6}|noadds\\noadds.csproj|solutionrelative:noadds\\assets\\lockscreenlogo.scale-200.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LockScreenLogo.scale-200.png",
+              "DocumentMoniker": "C:\\Users\\factupid\\source\\repos\\noadds\\noadds\\noadds\\Assets\\LockScreenLogo.scale-200.png",
+              "RelativeDocumentMoniker": "noadds\\Assets\\LockScreenLogo.scale-200.png",
+              "ToolTip": "C:\\Users\\factupid\\source\\repos\\noadds\\noadds\\noadds\\Assets\\LockScreenLogo.scale-200.png",
+              "RelativeToolTip": "noadds\\Assets\\LockScreenLogo.scale-200.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2026-04-27T23:57:51.157Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

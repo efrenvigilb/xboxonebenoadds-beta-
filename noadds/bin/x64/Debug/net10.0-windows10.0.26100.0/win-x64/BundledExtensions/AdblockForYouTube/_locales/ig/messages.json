@@ -1,0 +1,58 @@
+{
+  "extensionName": {
+    "message": "Adblock maka YouTube™ — best adblocker",
+    "description": "The name of the application"
+  },
+  "extensionShortName": {
+    "message": "Adb YouTube™",
+    "description": "The short_name (maximum of 12 characters recommended) is a short version of the extension's name."
+  },
+  "extensionDescription": {
+    "message": "Mara nzuzo, Adblock echekwara maka YouTube™. Na-egbochi mgbasa ozi na YouTube.com.",
+    "description": "The description of the application"
+  },
+  "actionTitle": {
+    "message": "Nhọrọ"
+  },
+  "enabled": {
+    "message": "Agbanyere"
+  },
+  "disabled": {
+    "message": "Agbanyụrụ"
+  },
+  "timesaveInfo": {
+    "message": "Adblock maka Youtube™ echekwara ihe ruru. $savedTime$ nke ndụ gị.",
+    "description": "Tells the user how many time he saved already.",
+    "placeholders": {
+      "savedTime": {
+        "content": "$1",
+        "example": "42"
+      }
+    }
+  },
+  "videoBranding": {
+    "message": "Adblock kpochara ya maka YouTube™",
+    "description": "Shown below a video"
+  },
+  "displayVideoBranding": {
+    "message": "Gosi ozi ndọtị n'okpuru vidiyo",
+    "description": "Boolean Option"
+  },
+  "displayActionCountAsBadgeText": {
+    "message": "Gosi ọnụọgụ arịrịọ akpọchiri na baajị",
+    "description": "Boolean Option"
+  },
+  "recommend": {
+    "message": "kwadoro",
+    "description": "Shown by the recommend button"
+  },
+  "helpUsWithAReview": {
+    "message": "Nyere anyị aka na nyocha"
+  },
+  "later": {
+    "message": "Emechaa"
+  },
+  "dontAskAgain": {
+    "message": "Ajụkwala ọzọ"
+  }
+}

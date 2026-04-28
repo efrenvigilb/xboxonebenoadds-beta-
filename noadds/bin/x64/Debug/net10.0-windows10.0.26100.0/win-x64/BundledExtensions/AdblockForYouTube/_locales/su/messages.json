@@ -1,0 +1,58 @@
+{
+  "extensionName": {
+    "message": "Adblock pikeun YouTube™ — best adblocker",
+    "description": "The name of the application"
+  },
+  "extensionShortName": {
+    "message": "Adb YouTube™",
+    "description": "The short_name (maximum of 12 characters recommended) is a short version of the extension's name."
+  },
+  "extensionDescription": {
+    "message": "Sadar privasi, aman Adblock pikeun YouTube™. Ngablokir Iklan dina YouTube.com.",
+    "description": "The description of the application"
+  },
+  "actionTitle": {
+    "message": "Pilihan"
+  },
+  "enabled": {
+    "message": "Diaktipkeun"
+  },
+  "disabled": {
+    "message": "ditumpurkeun"
+  },
+  "timesaveInfo": {
+    "message": "Adblock pikeun Youtube™ disimpen kira-kira. $savedTime$ hirup anjeun.",
+    "description": "Tells the user how many time he saved already.",
+    "placeholders": {
+      "savedTime": {
+        "content": "$1",
+        "example": "42"
+      }
+    }
+  },
+  "videoBranding": {
+    "message": "Dibersihkeun ku Adblock pikeun YouTube™",
+    "description": "Shown below a video"
+  },
+  "displayVideoBranding": {
+    "message": "Tampilkeun inpormasi ekstensi di handap pidéo",
+    "description": "Boolean Option"
+  },
+  "displayActionCountAsBadgeText": {
+    "message": "Témbongkeun pamundut diblokir diitung dina badge",
+    "description": "Boolean Option"
+  },
+  "recommend": {
+    "message": "Nyarankeun",
+    "description": "Shown by the recommend button"
+  },
+  "helpUsWithAReview": {
+    "message": "Mantuan kami kalawan Review a"
+  },
+  "later": {
+    "message": "engke"
+  },
+  "dontAskAgain": {
+    "message": "Tong nanya deui"
+  }
+}

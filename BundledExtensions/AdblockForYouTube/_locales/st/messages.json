@@ -1,0 +1,58 @@
+{
+  "extensionName": {
+    "message": "Adblock bakeng sa YouTube™ — best adblocker",
+    "description": "The name of the application"
+  },
+  "extensionShortName": {
+    "message": "Adb YouTube™",
+    "description": "The short_name (maximum of 12 characters recommended) is a short version of the extension's name."
+  },
+  "extensionDescription": {
+    "message": "Ho tseba ka lekunutu, Adblock e sireletsehileng bakeng sa YouTube™. E thibela Lipapatso ho YouTube.com.",
+    "description": "The description of the application"
+  },
+  "actionTitle": {
+    "message": "Dikgetho"
+  },
+  "enabled": {
+    "message": "E lumelletsoe"
+  },
+  "disabled": {
+    "message": "E holofetse"
+  },
+  "timesaveInfo": {
+    "message": "Adblock bakeng sa Youtube™ e bolokiloe hoo e ka bang. $savedTime$ bophelo bohle ba hao.",
+    "description": "Tells the user how many time he saved already.",
+    "placeholders": {
+      "savedTime": {
+        "content": "$1",
+        "example": "42"
+      }
+    }
+  },
+  "videoBranding": {
+    "message": "E hloekisitsoe ke Adblock bakeng sa YouTube™",
+    "description": "Shown below a video"
+  },
+  "displayVideoBranding": {
+    "message": "Hlahisa lintlha tsa katoloso ka tlase ho video",
+    "description": "Boolean Option"
+  },
+  "displayActionCountAsBadgeText": {
+    "message": "Hlahisa palo ea likopo tse thibetsoeng ka beche",
+    "description": "Boolean Option"
+  },
+  "recommend": {
+    "message": "Khothalletsa",
+    "description": "Shown by the recommend button"
+  },
+  "helpUsWithAReview": {
+    "message": "Re thuse ka Tlhahlobo"
+  },
+  "later": {
+    "message": "Hamorao"
+  },
+  "dontAskAgain": {
+    "message": "Se botse hape"
+  }
+}

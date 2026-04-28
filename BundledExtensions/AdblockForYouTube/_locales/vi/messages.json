@@ -1,0 +1,58 @@
+{
+   "actionTitle": {
+      "message": "Tùy chọn"
+   },
+   "disabled": {
+      "message": "Tàn tật"
+   },
+   "displayActionCountAsBadgeText": {
+      "description": "Boolean Option",
+      "message": "Hiển thị số lượng yêu cầu bị chặn trong huy hiệu"
+   },
+   "displayVideoBranding": {
+      "description": "Boolean Option",
+      "message": "Hiển thị thông tin tiện ích mở rộng bên dưới video"
+   },
+   "dontAskAgain": {
+      "message": "Đừng hỏi lại"
+   },
+   "enabled": {
+      "message": "Đã bật"
+   },
+   "extensionDescription": {
+      "description": "The description of the application",
+      "message": "Nhận thức về quyền riêng tư, Adblock an toàn cho YouTube ™. Chặn quảng cáo trên YouTube.com."
+   },
+   "extensionName": {
+      "description": "The name of the application",
+      "message": "Adblock cho YouTube™ — best adblocker"
+   },
+   "extensionShortName": {
+      "description": "The short_name (maximum of 12 characters recommended) is a short version of the extension's name.",
+      "message": "Adb YouTube ™"
+   },
+   "helpUsWithAReview": {
+      "message": "Giúp chúng tôi đánh giá"
+   },
+   "later": {
+      "message": "Một lát sau"
+   },
+   "recommend": {
+      "description": "Shown by the recommend button",
+      "message": "Giới thiệu"
+   },
+   "timesaveInfo": {
+      "description": "Tells the user how many time he saved already.",
+      "message": "Adblock cho Youtube ™ đã lưu khoảng. $savedTime$ của cuộc đời bạn.",
+      "placeholders": {
+         "savedTime": {
+            "content": "$1",
+            "example": "42"
+         }
+      }
+   },
+   "videoBranding": {
+      "description": "Shown below a video",
+      "message": "Xóa bởi Adblock cho YouTube ™"
+   }
+}

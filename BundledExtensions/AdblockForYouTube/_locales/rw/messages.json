@@ -1,0 +1,58 @@
+{
+  "extensionName": {
+    "message": "Guhagarika kuri YouTube™ — best adblocker",
+    "description": "The name of the application"
+  },
+  "extensionShortName": {
+    "message": "Adb YouTube ™",
+    "description": "The short_name (maximum of 12 characters recommended) is a short version of the extension's name."
+  },
+  "extensionDescription": {
+    "message": "Amabanga arabizi, umutekano Adblock kuri YouTube ™. Guhagarika Amatangazo kuri YouTube.com.",
+    "description": "The description of the application"
+  },
+  "actionTitle": {
+    "message": "Amahitamo"
+  },
+  "enabled": {
+    "message": "Gushoboza"
+  },
+  "disabled": {
+    "message": "Abamugaye"
+  },
+  "timesaveInfo": {
+    "message": "Guhagarika Youtube ™ yazigamye hafi. $savedTime$ cyubuzima bwawe.",
+    "description": "Tells the user how many time he saved already.",
+    "placeholders": {
+      "savedTime": {
+        "content": "$1",
+        "example": "42"
+      }
+    }
+  },
+  "videoBranding": {
+    "message": "Isukurwa na Adblock kuri YouTube ™",
+    "description": "Shown below a video"
+  },
+  "displayVideoBranding": {
+    "message": "Erekana amakuru yagutse munsi ya videwo",
+    "description": "Boolean Option"
+  },
+  "displayActionCountAsBadgeText": {
+    "message": "Erekana ibyifuzo byahagaritswe kubara muri badge",
+    "description": "Boolean Option"
+  },
+  "recommend": {
+    "message": "Saba",
+    "description": "Shown by the recommend button"
+  },
+  "helpUsWithAReview": {
+    "message": "Mudufashe gusubiramo"
+  },
+  "later": {
+    "message": "Nyuma"
+  },
+  "dontAskAgain": {
+    "message": "Ntuzongere kubaza"
+  }
+}

@@ -1,0 +1,58 @@
+{
+   "actionTitle": {
+      "message": "اختیارات"
+   },
+   "disabled": {
+      "message": "معذور"
+   },
+   "displayActionCountAsBadgeText": {
+      "description": "Boolean Option",
+      "message": "بیج میں بلاک شدہ درخواستوں کا شمار دکھائیں۔"
+   },
+   "displayVideoBranding": {
+      "description": "Boolean Option",
+      "message": "ویڈیو کے نیچے توسیع کی معلومات دکھائیں۔"
+   },
+   "dontAskAgain": {
+      "message": "دوبارہ مت پوچھو"
+   },
+   "enabled": {
+      "message": "فعال"
+   },
+   "extensionDescription": {
+      "description": "The description of the application",
+      "message": "رازداری سے آگاہ، محفوظ ایڈ بلاکر برائے YouTube™۔ YouTube.com پر اشتہارات کو روکتا ہے۔"
+   },
+   "extensionName": {
+      "description": "The name of the application",
+      "message": "Adblock for YouTube™ — best adblocker"
+   },
+   "extensionShortName": {
+      "description": "The short_name (maximum of 12 characters recommended) is a short version of the extension's name.",
+      "message": "Adb YouTube™"
+   },
+   "helpUsWithAReview": {
+      "message": "جائزہ لینے میں ہماری مدد کریں۔"
+   },
+   "later": {
+      "message": "بعد میں"
+   },
+   "recommend": {
+      "description": "Shown by the recommend button",
+      "message": "تجویز کریں۔"
+   },
+   "timesaveInfo": {
+      "description": "Tells the user how many time he saved already.",
+      "message": "Adblock for Youtube™ کو تقریباً محفوظ کیا گیا۔ آپ کی زندگی کا  $savedTime$۔",
+      "placeholders": {
+         "savedTime": {
+            "content": "$1",
+            "example": "42"
+         }
+      }
+   },
+   "videoBranding": {
+      "description": "Shown below a video",
+      "message": "Adblock for YouTube™ کے ذریعے صاف کیا گیا۔"
+   }
+}

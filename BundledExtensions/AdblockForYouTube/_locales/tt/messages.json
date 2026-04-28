@@ -1,0 +1,58 @@
+{
+  "extensionName": {
+    "message": "YouTube ™ өчен реклама — best adblocker",
+    "description": "The name of the application"
+  },
+  "extensionShortName": {
+    "message": "Adb YouTube ™",
+    "description": "The short_name (maximum of 12 characters recommended) is a short version of the extension's name."
+  },
+  "extensionDescription": {
+    "message": "Хосусыйлыкны белгән, YouTube ™ өчен Adblock куркынычсыз. YouTube.com сайтындагы рекламаны блоклый.",
+    "description": "The description of the application"
+  },
+  "actionTitle": {
+    "message": "Вариантлар"
+  },
+  "enabled": {
+    "message": "Эшләтелгән"
+  },
+  "disabled": {
+    "message": "Инвалид"
+  },
+  "timesaveInfo": {
+    "message": "Youtube ™ өчен Adblock якынча сакланган. $savedTime$ сакланган вакыты.",
+    "description": "Tells the user how many time he saved already.",
+    "placeholders": {
+      "savedTime": {
+        "content": "$1",
+        "example": "42"
+      }
+    }
+  },
+  "videoBranding": {
+    "message": "YouTube ™ өчен Adblock белән чистартылган",
+    "description": "Shown below a video"
+  },
+  "displayVideoBranding": {
+    "message": "Видео астындагы киңәйтү мәгълүматын күрсәтегез",
+    "description": "Boolean Option"
+  },
+  "displayActionCountAsBadgeText": {
+    "message": "Блокланган запросларны бейджда күрсәтегез",
+    "description": "Boolean Option"
+  },
+  "recommend": {
+    "message": "Тәкъдим итегез",
+    "description": "Shown by the recommend button"
+  },
+  "helpUsWithAReview": {
+    "message": "Кабатлау белән булыш"
+  },
+  "later": {
+    "message": "Соңрак"
+  },
+  "dontAskAgain": {
+    "message": "Тагын сорамагыз"
+  }
+}

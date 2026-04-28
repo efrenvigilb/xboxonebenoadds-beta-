@@ -1,0 +1,58 @@
+{
+  "extensionName": {
+    "message": "Adblock ar gyfer YouTube™ — best adblocker",
+    "description": "The name of the application"
+  },
+  "extensionShortName": {
+    "message": "Adb YouTube™",
+    "description": "The short_name (maximum of 12 characters recommended) is a short version of the extension's name."
+  },
+  "extensionDescription": {
+    "message": "Yn ymwybodol o breifatrwydd, yn ddiogel Adblock ar gyfer YouTube™. Yn blocio hysbysebion ar YouTube.com.",
+    "description": "The description of the application"
+  },
+  "actionTitle": {
+    "message": "Opsiynau"
+  },
+  "enabled": {
+    "message": "Galluogwyd"
+  },
+  "disabled": {
+    "message": "Anabl"
+  },
+  "timesaveInfo": {
+    "message": "Adblock ar gyfer Youtube™ wedi'i arbed tua. $savedTime$ o'ch oes.",
+    "description": "Tells the user how many time he saved already.",
+    "placeholders": {
+      "savedTime": {
+        "content": "$1",
+        "example": "42"
+      }
+    }
+  },
+  "videoBranding": {
+    "message": "Wedi'i lanhau gan Adblock ar gyfer YouTube™",
+    "description": "Shown below a video"
+  },
+  "displayVideoBranding": {
+    "message": "Dangos gwybodaeth estyniad o dan y fideo",
+    "description": "Boolean Option"
+  },
+  "displayActionCountAsBadgeText": {
+    "message": "Dangos nifer y ceisiadau sydd wedi'u rhwystro yn y bathodyn",
+    "description": "Boolean Option"
+  },
+  "recommend": {
+    "message": "Argymell",
+    "description": "Shown by the recommend button"
+  },
+  "helpUsWithAReview": {
+    "message": "Helpwch ni gydag Adolygiad"
+  },
+  "later": {
+    "message": "Yn ddiweddarach"
+  },
+  "dontAskAgain": {
+    "message": "Peidiwch â gofyn eto"
+  }
+}

@@ -1,0 +1,43 @@
+{
+   "action": {
+      "default_icon": {
+         "1024": "data/icons/icon-1024.png",
+         "128": "data/icons/icon-128.png",
+         "16": "data/icons/icon-16.png",
+         "19": "data/icons/icon-19.png",
+         "32": "data/icons/icon-32.png",
+         "38": "data/icons/icon-38.png",
+         "512": "data/icons/icon-512.png"
+      },
+      "default_popup": "data/interface/index.html?popup",
+      "default_title": "__MSG_actionTitle__"
+   },
+   "background": {
+      "service_worker": "background.js"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "codehemu-content.js" ],
+      "matches": [ "*://*.youtube.com/*" ],
+      "run_at": "document_start"
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_extensionDescription__",
+   "host_permissions": [ "*://*.youtube.com/*" ],
+   "icons": {
+      "1024": "data/icons/icon-1024.png",
+      "128": "data/icons/icon-128.png",
+      "16": "data/icons/icon-16.png",
+      "19": "data/icons/icon-19.png",
+      "32": "data/icons/icon-32.png",
+      "38": "data/icons/icon-38.png",
+      "512": "data/icons/icon-512.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtVbuDoYxjZyZmVbOMtrKGCUnSgk/hOBp7gF++4zK+JVOAYybMmKpPSiVQVvbYUKeud3/jiMnkgJ20Eu39EuQvR/rzvXhWJeB6m/sXsOIWLgsxQRjb4i0if3ObZtT6Gp65FWkAbfHr84cQU+Xq2MWmMWZ51+ie1M2QTcNyWur8yiu3o6RKRYCqJP7flhR0POxBbP/3KBNuQPTE1vVFNfyAzFSLy+bFqWHSRUl6xN/S4QK2tFf6mwoqHzrrsKLXclYFPKkX8zIxNoN0gCkcCwdgzLs4MsPx7ozdE1/P6eE9z9f9GCNtrvis3IoHQfNG603tkEJ4IFXsgWgZNhe+szkMQIDAQAB",
+   "manifest_version": 3,
+   "name": "__MSG_extensionName__",
+   "permissions": [ "storage", "unlimitedStorage", "scripting", "declarativeNetRequest", "webNavigation", "webRequest" ],
+   "short_name": "aby",
+   "update_url": "https://edge.microsoft.com/extensionwebstorebase/v1/crx",
+   "version": "1.6"
+}

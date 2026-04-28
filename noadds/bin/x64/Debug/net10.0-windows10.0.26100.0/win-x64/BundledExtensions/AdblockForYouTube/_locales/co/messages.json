@@ -1,0 +1,58 @@
+{
+  "extensionName": {
+    "message": "Adblock per YouTube™ — best adblocker",
+    "description": "The name of the application"
+  },
+  "extensionShortName": {
+    "message": "Adb YouTube™",
+    "description": "The short_name (maximum of 12 characters recommended) is a short version of the extension's name."
+  },
+  "extensionDescription": {
+    "message": "Cuscenza di a privacy, Adblock sicuru per YouTube™. Blocca l'annunzii in YouTube.com.",
+    "description": "The description of the application"
+  },
+  "actionTitle": {
+    "message": "Opzioni"
+  },
+  "enabled": {
+    "message": "Abilitatu"
+  },
+  "disabled": {
+    "message": "Disabilitatu"
+  },
+  "timesaveInfo": {
+    "message": "Adblock per Youtube™ salvatu circa. $savedTime$ di a vostra vita.",
+    "description": "Tells the user how many time he saved already.",
+    "placeholders": {
+      "savedTime": {
+        "content": "$1",
+        "example": "42"
+      }
+    }
+  },
+  "videoBranding": {
+    "message": "Pulita da Adblock per YouTube™",
+    "description": "Shown below a video"
+  },
+  "displayVideoBranding": {
+    "message": "Mostra l'infurmazioni di l'estensione sottu u video",
+    "description": "Boolean Option"
+  },
+  "displayActionCountAsBadgeText": {
+    "message": "Mostra e richieste bluccate contanu in badge",
+    "description": "Boolean Option"
+  },
+  "recommend": {
+    "message": "Cunsigliu",
+    "description": "Shown by the recommend button"
+  },
+  "helpUsWithAReview": {
+    "message": "Aiutateci cù una recensione"
+  },
+  "later": {
+    "message": "Più tardi"
+  },
+  "dontAskAgain": {
+    "message": "Ùn dumandate più"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "extensionName": {
+    "message": "Adblock don YouTube™ — best adblocker",
+    "description": "The name of the application"
+  },
+  "extensionShortName": {
+    "message": "Adb YouTube™",
+    "description": "The short_name (maximum of 12 characters recommended) is a short version of the extension's name."
+  },
+  "extensionDescription": {
+    "message": "Sanin sirri, amintaccen Adblock don YouTube™. Toshe Talla akan YouTube.com.",
+    "description": "The description of the application"
+  },
+  "actionTitle": {
+    "message": "Zabuka"
+  },
+  "enabled": {
+    "message": "An kunna"
+  },
+  "disabled": {
+    "message": "An kashe"
+  },
+  "timesaveInfo": {
+    "message": "Adblock na Youtube™ da aka ajiye kusan. $savedTime$ na rayuwar ku.",
+    "description": "Tells the user how many time he saved already.",
+    "placeholders": {
+      "savedTime": {
+        "content": "$1",
+        "example": "42"
+      }
+    }
+  },
+  "videoBranding": {
+    "message": "Adblock ya share don YouTube™",
+    "description": "Shown below a video"
+  },
+  "displayVideoBranding": {
+    "message": "Nuna bayanin tsawo a ƙasan bidiyo",
+    "description": "Boolean Option"
+  },
+  "displayActionCountAsBadgeText": {
+    "message": "Nuna ƙididdigar buƙatun da aka katange a lamba",
+    "description": "Boolean Option"
+  },
+  "recommend": {
+    "message": "Shawara",
+    "description": "Shown by the recommend button"
+  },
+  "helpUsWithAReview": {
+    "message": "Taimaka mana da Bita"
+  },
+  "later": {
+    "message": "Daga baya"
+  },
+  "dontAskAgain": {
+    "message": "Kar a sake tambaya"
+  }
+}

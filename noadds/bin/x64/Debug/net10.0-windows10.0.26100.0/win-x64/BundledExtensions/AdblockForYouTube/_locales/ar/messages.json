@@ -1,0 +1,58 @@
+{
+   "actionTitle": {
+      "message": "خيارات"
+   },
+   "disabled": {
+      "message": "عاجز"
+   },
+   "displayActionCountAsBadgeText": {
+      "description": "Boolean Option",
+      "message": "إظهار عدد الطلبات المحظورة في الشارة"
+   },
+   "displayVideoBranding": {
+      "description": "Boolean Option",
+      "message": "إظهار معلومات التمديد أدناه الفيديو"
+   },
+   "dontAskAgain": {
+      "message": "لا تسأل مرة أخرى"
+   },
+   "enabled": {
+      "message": "ممكن"
+   },
+   "extensionDescription": {
+      "description": "The description of the application",
+      "message": "مدرك للخصوصية ، Adblock آمن لـ YouTube ™. يمنع الإعلانات على موقع YouTube.com."
+   },
+   "extensionName": {
+      "description": "The name of the application",
+      "message": "Adblock لموقع YouTube ™ — best adblocker"
+   },
+   "extensionShortName": {
+      "description": "The short_name (maximum of 12 characters recommended) is a short version of the extension's name.",
+      "message": "Adb YouTube ™"
+   },
+   "helpUsWithAReview": {
+      "message": "ساعدنا بمراجعة"
+   },
+   "later": {
+      "message": "في وقت لاحق"
+   },
+   "recommend": {
+      "description": "Shown by the recommend button",
+      "message": "نوصي"
+   },
+   "timesaveInfo": {
+      "description": "Tells the user how many time he saved already.",
+      "message": "تم حفظ Adblock لـ Youtube ™ تقريبًا.  $savedTime$ من حياتك.",
+      "placeholders": {
+         "savedTime": {
+            "content": "$1",
+            "example": "42"
+         }
+      }
+   },
+   "videoBranding": {
+      "description": "Shown below a video",
+      "message": "تم التنظيف بواسطة Adblock لـ YouTube ™"
+   }
+}

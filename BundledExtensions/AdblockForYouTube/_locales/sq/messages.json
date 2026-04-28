@@ -1,0 +1,58 @@
+{
+   "actionTitle": {
+      "message": "Opsione"
+   },
+   "disabled": {
+      "message": "I paaftë"
+   },
+   "displayActionCountAsBadgeText": {
+      "description": "Boolean Option",
+      "message": "Shfaq numrin e kërkesave të bllokuara në distinktiv"
+   },
+   "displayVideoBranding": {
+      "description": "Boolean Option",
+      "message": "Shfaq informacionin e shtesës poshtë videos"
+   },
+   "dontAskAgain": {
+      "message": "Mos pyet më"
+   },
+   "enabled": {
+      "message": "Aktivizuar"
+   },
+   "extensionDescription": {
+      "description": "The description of the application",
+      "message": "Adblock i sigurt dhe i vetëdijshëm për privatësinë për YouTube™. Bllokon reklamat në YouTube.com."
+   },
+   "extensionName": {
+      "description": "The name of the application",
+      "message": "Adblock për YouTube™ — best adblocker"
+   },
+   "extensionShortName": {
+      "description": "The short_name (maximum of 12 characters recommended) is a short version of the extension's name.",
+      "message": "Adb YouTube™"
+   },
+   "helpUsWithAReview": {
+      "message": "Na ndihmoni me një rishikim"
+   },
+   "later": {
+      "message": "Më vonë"
+   },
+   "recommend": {
+      "description": "Shown by the recommend button",
+      "message": "Rekomandoni"
+   },
+   "timesaveInfo": {
+      "description": "Tells the user how many time he saved already.",
+      "message": "Adblock për Youtube™ u ruajt përafërsisht. $savedTime$ të jetës suaj.",
+      "placeholders": {
+         "savedTime": {
+            "content": "$1",
+            "example": "42"
+         }
+      }
+   },
+   "videoBranding": {
+      "description": "Shown below a video",
+      "message": "Pastruar nga Adblock për YouTube™"
+   }
+}

@@ -1,0 +1,58 @@
+{
+   "actionTitle": {
+      "message": "አማራጮች"
+   },
+   "disabled": {
+      "message": "ተሰናክሏል"
+   },
+   "displayActionCountAsBadgeText": {
+      "description": "Boolean Option",
+      "message": "የታገዱ የጥያቄዎች ብዛት በባጅ ውስጥ አሳይ"
+   },
+   "displayVideoBranding": {
+      "description": "Boolean Option",
+      "message": "ከቪዲዮው በታች ያለውን የቅጥያ መረጃ አሳይ"
+   },
+   "dontAskAgain": {
+      "message": "እንደገና አትጠይቅ"
+   },
+   "enabled": {
+      "message": "ነቅቷል"
+   },
+   "extensionDescription": {
+      "description": "The description of the application",
+      "message": "ግላዊነትን የሚያውቅ፣ ደህንነቱ የተጠበቀ Adblock ለYouTube™። በYouTube.com ላይ ማስታወቂያዎችን ያግዳል።"
+   },
+   "extensionName": {
+      "description": "The name of the application",
+      "message": "ማስታወቂያ እገዳ ለYouTube™ — best adblocker"
+   },
+   "extensionShortName": {
+      "description": "The short_name (maximum of 12 characters recommended) is a short version of the extension's name.",
+      "message": "Adb YouTube™"
+   },
+   "helpUsWithAReview": {
+      "message": "በግምገማ እርዳን"
+   },
+   "later": {
+      "message": "በኋላ"
+   },
+   "recommend": {
+      "description": "Shown by the recommend button",
+      "message": "ይመክራል።"
+   },
+   "timesaveInfo": {
+      "description": "Tells the user how many time he saved already.",
+      "message": "Adblock ለ Youtube™ ተቀምጧል በግምት። የህይወት ዘመንህ $savedTime$",
+      "placeholders": {
+         "savedTime": {
+            "content": "$1",
+            "example": "42"
+         }
+      }
+   },
+   "videoBranding": {
+      "description": "Shown below a video",
+      "message": "ለYouTube™ በAdblock የጸዳ"
+   }
+}

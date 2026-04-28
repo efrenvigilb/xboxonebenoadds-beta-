@@ -1,0 +1,58 @@
+{
+  "extensionName": {
+    "message": "Adblock សម្រាប់ YouTube™ — best adblocker",
+    "description": "The name of the application"
+  },
+  "extensionShortName": {
+    "message": "Adb YouTube™",
+    "description": "The short_name (maximum of 12 characters recommended) is a short version of the extension's name."
+  },
+  "extensionDescription": {
+    "message": "ការយល់ដឹងអំពីឯកជនភាព សុវត្ថិភាព Adblock សម្រាប់ YouTube™។ ទប់ស្កាត់ការផ្សាយពាណិជ្ជកម្មនៅលើ YouTube.com ។",
+    "description": "The description of the application"
+  },
+  "actionTitle": {
+    "message": "ជម្រើស"
+  },
+  "enabled": {
+    "message": "បានបើក"
+  },
+  "disabled": {
+    "message": "ពិការ"
+  },
+  "timesaveInfo": {
+    "message": "Adblock សម្រាប់ Youtube™ បានរក្សាទុកប្រហែល។ $savedTime$ នៃជីវិតរបស់អ្នក។",
+    "description": "Tells the user how many time he saved already.",
+    "placeholders": {
+      "savedTime": {
+        "content": "$1",
+        "example": "42"
+      }
+    }
+  },
+  "videoBranding": {
+    "message": "សម្អាតដោយ Adblock សម្រាប់ YouTube™",
+    "description": "Shown below a video"
+  },
+  "displayVideoBranding": {
+    "message": "បង្ហាញព័ត៌មានផ្នែកបន្ថែមខាងក្រោមវីដេអូ",
+    "description": "Boolean Option"
+  },
+  "displayActionCountAsBadgeText": {
+    "message": "បង្ហាញចំនួនសំណើដែលបានទប់ស្កាត់នៅក្នុងផ្លាកសញ្ញា",
+    "description": "Boolean Option"
+  },
+  "recommend": {
+    "message": "ណែនាំ",
+    "description": "Shown by the recommend button"
+  },
+  "helpUsWithAReview": {
+    "message": "ជួយយើងជាមួយនឹងការពិនិត្យឡើងវិញ"
+  },
+  "later": {
+    "message": "ពេលក្រោយ"
+  },
+  "dontAskAgain": {
+    "message": "កុំសួរម្តងទៀត"
+  }
+}

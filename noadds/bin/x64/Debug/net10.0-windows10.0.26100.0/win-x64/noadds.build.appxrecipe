@@ -1,0 +1,1121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-IGCO47L</Machine>
+    <WindowsUser>factupid</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>0.0</TargetOsVersion>
+    <TargetOsDescription></TargetOsDescription>
+    <SolutionConfiguration>Debug|x64</SolutionConfiguration>
+    <PackageArchitecture>x64</PackageArchitecture>
+    <PackageIdentityName>be4c8e7e-f269-4789-ba4b-908dd75c0c59</PackageIdentityName>
+    <PackageIdentityPublisher>CN=factupid</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\factupid\source\repos\noadds\noadds\noadds\obj\x64\Debug\net10.0-windows10.0.26100.0\win-x64\</IntermediateOutputPath>
+    <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
+    <PackageRegistrationPath></PackageRegistrationPath>
+    <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>C:\Users\factupid\source\repos\noadds\noadds\noadds\bin\x64\Debug\net10.0-windows10.0.26100.0\win-x64\AppX</LayoutDir>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\factupid\source\repos\noadds\noadds\noadds\bin\x64\Debug\net10.0-windows10.0.26100.0\win-x64\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\noadds\bin\x64\Debug\net10.0-windows10.0.26100.0\win-x64\noadds.runtimeconfig.json">
+      <PackagePath>noadds.runtimeconfig.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\noadds\bin\x64\Debug\net10.0-windows10.0.26100.0\win-x64\noadds.deps.json">
+      <PackagePath>noadds.deps.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\noadds\bin\x64\Debug\net10.0-windows10.0.26100.0\win-x64\noadds.dll">
+      <PackagePath>noadds.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.web.webview2\1.0.2849.39\buildTransitive\..\\runtimes\win-x64\native_uap\Microsoft.Web.WebView2.Core.dll">
+      <PackagePath>Microsoft.Web.WebView2.Core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.ui.xaml\2.8.7\lib\net8.0-windows10.0.22621.0\Microsoft.UI.Xaml.Projection.dll">
+      <PackagePath>Microsoft.UI.Xaml.Projection.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.web.webview2\1.0.2849.39\runtimes\win-x64\native\WebView2Loader.dll">
+      <PackagePath>WebView2Loader.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\Microsoft.CSharp.dll">
+      <PackagePath>Microsoft.CSharp.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\Microsoft.VisualBasic.Core.dll">
+      <PackagePath>Microsoft.VisualBasic.Core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\Microsoft.VisualBasic.dll">
+      <PackagePath>Microsoft.VisualBasic.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\Microsoft.Win32.Primitives.dll">
+      <PackagePath>Microsoft.Win32.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\Microsoft.Win32.Registry.dll">
+      <PackagePath>Microsoft.Win32.Registry.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.AppContext.dll">
+      <PackagePath>System.AppContext.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Buffers.dll">
+      <PackagePath>System.Buffers.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Collections.Concurrent.dll">
+      <PackagePath>System.Collections.Concurrent.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Collections.Immutable.dll">
+      <PackagePath>System.Collections.Immutable.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Collections.NonGeneric.dll">
+      <PackagePath>System.Collections.NonGeneric.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Collections.Specialized.dll">
+      <PackagePath>System.Collections.Specialized.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Collections.dll">
+      <PackagePath>System.Collections.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.ComponentModel.Annotations.dll">
+      <PackagePath>System.ComponentModel.Annotations.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.ComponentModel.DataAnnotations.dll">
+      <PackagePath>System.ComponentModel.DataAnnotations.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.ComponentModel.EventBasedAsync.dll">
+      <PackagePath>System.ComponentModel.EventBasedAsync.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.ComponentModel.Primitives.dll">
+      <PackagePath>System.ComponentModel.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.ComponentModel.TypeConverter.dll">
+      <PackagePath>System.ComponentModel.TypeConverter.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.ComponentModel.dll">
+      <PackagePath>System.ComponentModel.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Configuration.dll">
+      <PackagePath>System.Configuration.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Console.dll">
+      <PackagePath>System.Console.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Core.dll">
+      <PackagePath>System.Core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Data.Common.dll">
+      <PackagePath>System.Data.Common.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Data.DataSetExtensions.dll">
+      <PackagePath>System.Data.DataSetExtensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Data.dll">
+      <PackagePath>System.Data.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Diagnostics.Contracts.dll">
+      <PackagePath>System.Diagnostics.Contracts.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Diagnostics.Debug.dll">
+      <PackagePath>System.Diagnostics.Debug.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Diagnostics.DiagnosticSource.dll">
+      <PackagePath>System.Diagnostics.DiagnosticSource.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Diagnostics.FileVersionInfo.dll">
+      <PackagePath>System.Diagnostics.FileVersionInfo.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Diagnostics.Process.dll">
+      <PackagePath>System.Diagnostics.Process.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Diagnostics.StackTrace.dll">
+      <PackagePath>System.Diagnostics.StackTrace.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Diagnostics.TextWriterTraceListener.dll">
+      <PackagePath>System.Diagnostics.TextWriterTraceListener.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Diagnostics.Tools.dll">
+      <PackagePath>System.Diagnostics.Tools.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Diagnostics.TraceSource.dll">
+      <PackagePath>System.Diagnostics.TraceSource.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Diagnostics.Tracing.dll">
+      <PackagePath>System.Diagnostics.Tracing.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Drawing.Primitives.dll">
+      <PackagePath>System.Drawing.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Drawing.dll">
+      <PackagePath>System.Drawing.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Dynamic.Runtime.dll">
+      <PackagePath>System.Dynamic.Runtime.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Formats.Asn1.dll">
+      <PackagePath>System.Formats.Asn1.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Formats.Tar.dll">
+      <PackagePath>System.Formats.Tar.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Globalization.Calendars.dll">
+      <PackagePath>System.Globalization.Calendars.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Globalization.Extensions.dll">
+      <PackagePath>System.Globalization.Extensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Globalization.dll">
+      <PackagePath>System.Globalization.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.IO.Compression.Brotli.dll">
+      <PackagePath>System.IO.Compression.Brotli.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.IO.Compression.FileSystem.dll">
+      <PackagePath>System.IO.Compression.FileSystem.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.IO.Compression.ZipFile.dll">
+      <PackagePath>System.IO.Compression.ZipFile.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.IO.Compression.dll">
+      <PackagePath>System.IO.Compression.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.IO.FileSystem.AccessControl.dll">
+      <PackagePath>System.IO.FileSystem.AccessControl.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.IO.FileSystem.DriveInfo.dll">
+      <PackagePath>System.IO.FileSystem.DriveInfo.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.IO.FileSystem.Primitives.dll">
+      <PackagePath>System.IO.FileSystem.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.IO.FileSystem.Watcher.dll">
+      <PackagePath>System.IO.FileSystem.Watcher.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.IO.FileSystem.dll">
+      <PackagePath>System.IO.FileSystem.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.IO.IsolatedStorage.dll">
+      <PackagePath>System.IO.IsolatedStorage.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.IO.MemoryMappedFiles.dll">
+      <PackagePath>System.IO.MemoryMappedFiles.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.IO.Pipelines.dll">
+      <PackagePath>System.IO.Pipelines.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.IO.Pipes.AccessControl.dll">
+      <PackagePath>System.IO.Pipes.AccessControl.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.IO.Pipes.dll">
+      <PackagePath>System.IO.Pipes.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.IO.UnmanagedMemoryStream.dll">
+      <PackagePath>System.IO.UnmanagedMemoryStream.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.IO.dll">
+      <PackagePath>System.IO.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Linq.AsyncEnumerable.dll">
+      <PackagePath>System.Linq.AsyncEnumerable.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Linq.Expressions.dll">
+      <PackagePath>System.Linq.Expressions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Linq.Parallel.dll">
+      <PackagePath>System.Linq.Parallel.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Linq.Queryable.dll">
+      <PackagePath>System.Linq.Queryable.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Linq.dll">
+      <PackagePath>System.Linq.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Memory.dll">
+      <PackagePath>System.Memory.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Net.Http.Json.dll">
+      <PackagePath>System.Net.Http.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Net.Http.dll">
+      <PackagePath>System.Net.Http.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Net.HttpListener.dll">
+      <PackagePath>System.Net.HttpListener.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Net.Mail.dll">
+      <PackagePath>System.Net.Mail.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Net.NameResolution.dll">
+      <PackagePath>System.Net.NameResolution.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Net.NetworkInformation.dll">
+      <PackagePath>System.Net.NetworkInformation.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Net.Ping.dll">
+      <PackagePath>System.Net.Ping.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Net.Primitives.dll">
+      <PackagePath>System.Net.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Net.Quic.dll">
+      <PackagePath>System.Net.Quic.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Net.Requests.dll">
+      <PackagePath>System.Net.Requests.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Net.Security.dll">
+      <PackagePath>System.Net.Security.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Net.ServerSentEvents.dll">
+      <PackagePath>System.Net.ServerSentEvents.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Net.ServicePoint.dll">
+      <PackagePath>System.Net.ServicePoint.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Net.Sockets.dll">
+      <PackagePath>System.Net.Sockets.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Net.WebClient.dll">
+      <PackagePath>System.Net.WebClient.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Net.WebHeaderCollection.dll">
+      <PackagePath>System.Net.WebHeaderCollection.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Net.WebProxy.dll">
+      <PackagePath>System.Net.WebProxy.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Net.WebSockets.Client.dll">
+      <PackagePath>System.Net.WebSockets.Client.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Net.WebSockets.dll">
+      <PackagePath>System.Net.WebSockets.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Net.dll">
+      <PackagePath>System.Net.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Numerics.Vectors.dll">
+      <PackagePath>System.Numerics.Vectors.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Numerics.dll">
+      <PackagePath>System.Numerics.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.ObjectModel.dll">
+      <PackagePath>System.ObjectModel.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Private.CoreLib.dll">
+      <PackagePath>System.Private.CoreLib.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Private.DataContractSerialization.dll">
+      <PackagePath>System.Private.DataContractSerialization.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Private.Uri.dll">
+      <PackagePath>System.Private.Uri.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Private.Xml.Linq.dll">
+      <PackagePath>System.Private.Xml.Linq.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Private.Xml.dll">
+      <PackagePath>System.Private.Xml.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Reflection.DispatchProxy.dll">
+      <PackagePath>System.Reflection.DispatchProxy.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Reflection.Emit.ILGeneration.dll">
+      <PackagePath>System.Reflection.Emit.ILGeneration.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Reflection.Emit.Lightweight.dll">
+      <PackagePath>System.Reflection.Emit.Lightweight.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Reflection.Emit.dll">
+      <PackagePath>System.Reflection.Emit.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Reflection.Extensions.dll">
+      <PackagePath>System.Reflection.Extensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Reflection.Metadata.dll">
+      <PackagePath>System.Reflection.Metadata.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Reflection.Primitives.dll">
+      <PackagePath>System.Reflection.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Reflection.TypeExtensions.dll">
+      <PackagePath>System.Reflection.TypeExtensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Reflection.dll">
+      <PackagePath>System.Reflection.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Resources.Reader.dll">
+      <PackagePath>System.Resources.Reader.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Resources.ResourceManager.dll">
+      <PackagePath>System.Resources.ResourceManager.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Resources.Writer.dll">
+      <PackagePath>System.Resources.Writer.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Runtime.CompilerServices.Unsafe.dll">
+      <PackagePath>System.Runtime.CompilerServices.Unsafe.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Runtime.CompilerServices.VisualC.dll">
+      <PackagePath>System.Runtime.CompilerServices.VisualC.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Runtime.Extensions.dll">
+      <PackagePath>System.Runtime.Extensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Runtime.Handles.dll">
+      <PackagePath>System.Runtime.Handles.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Runtime.InteropServices.JavaScript.dll">
+      <PackagePath>System.Runtime.InteropServices.JavaScript.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Runtime.InteropServices.RuntimeInformation.dll">
+      <PackagePath>System.Runtime.InteropServices.RuntimeInformation.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Runtime.InteropServices.dll">
+      <PackagePath>System.Runtime.InteropServices.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Runtime.Intrinsics.dll">
+      <PackagePath>System.Runtime.Intrinsics.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Runtime.Loader.dll">
+      <PackagePath>System.Runtime.Loader.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Runtime.Numerics.dll">
+      <PackagePath>System.Runtime.Numerics.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Runtime.Serialization.Formatters.dll">
+      <PackagePath>System.Runtime.Serialization.Formatters.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Runtime.Serialization.Json.dll">
+      <PackagePath>System.Runtime.Serialization.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Runtime.Serialization.Primitives.dll">
+      <PackagePath>System.Runtime.Serialization.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Runtime.Serialization.Xml.dll">
+      <PackagePath>System.Runtime.Serialization.Xml.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Runtime.Serialization.dll">
+      <PackagePath>System.Runtime.Serialization.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Runtime.dll">
+      <PackagePath>System.Runtime.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Security.AccessControl.dll">
+      <PackagePath>System.Security.AccessControl.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Security.Claims.dll">
+      <PackagePath>System.Security.Claims.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Security.Cryptography.Algorithms.dll">
+      <PackagePath>System.Security.Cryptography.Algorithms.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Security.Cryptography.Cng.dll">
+      <PackagePath>System.Security.Cryptography.Cng.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Security.Cryptography.Csp.dll">
+      <PackagePath>System.Security.Cryptography.Csp.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Security.Cryptography.Encoding.dll">
+      <PackagePath>System.Security.Cryptography.Encoding.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Security.Cryptography.OpenSsl.dll">
+      <PackagePath>System.Security.Cryptography.OpenSsl.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Security.Cryptography.Primitives.dll">
+      <PackagePath>System.Security.Cryptography.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Security.Cryptography.X509Certificates.dll">
+      <PackagePath>System.Security.Cryptography.X509Certificates.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Security.Cryptography.dll">
+      <PackagePath>System.Security.Cryptography.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Security.Principal.Windows.dll">
+      <PackagePath>System.Security.Principal.Windows.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Security.Principal.dll">
+      <PackagePath>System.Security.Principal.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Security.SecureString.dll">
+      <PackagePath>System.Security.SecureString.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Security.dll">
+      <PackagePath>System.Security.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.ServiceModel.Web.dll">
+      <PackagePath>System.ServiceModel.Web.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.ServiceProcess.dll">
+      <PackagePath>System.ServiceProcess.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Text.Encoding.CodePages.dll">
+      <PackagePath>System.Text.Encoding.CodePages.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Text.Encoding.Extensions.dll">
+      <PackagePath>System.Text.Encoding.Extensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Text.Encoding.dll">
+      <PackagePath>System.Text.Encoding.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Text.Encodings.Web.dll">
+      <PackagePath>System.Text.Encodings.Web.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Text.Json.dll">
+      <PackagePath>System.Text.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Text.RegularExpressions.dll">
+      <PackagePath>System.Text.RegularExpressions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Threading.AccessControl.dll">
+      <PackagePath>System.Threading.AccessControl.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Threading.Channels.dll">
+      <PackagePath>System.Threading.Channels.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Threading.Overlapped.dll">
+      <PackagePath>System.Threading.Overlapped.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Threading.Tasks.Dataflow.dll">
+      <PackagePath>System.Threading.Tasks.Dataflow.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Threading.Tasks.Extensions.dll">
+      <PackagePath>System.Threading.Tasks.Extensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Threading.Tasks.Parallel.dll">
+      <PackagePath>System.Threading.Tasks.Parallel.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Threading.Tasks.dll">
+      <PackagePath>System.Threading.Tasks.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Threading.Thread.dll">
+      <PackagePath>System.Threading.Thread.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Threading.ThreadPool.dll">
+      <PackagePath>System.Threading.ThreadPool.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Threading.Timer.dll">
+      <PackagePath>System.Threading.Timer.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Threading.dll">
+      <PackagePath>System.Threading.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Transactions.Local.dll">
+      <PackagePath>System.Transactions.Local.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Transactions.dll">
+      <PackagePath>System.Transactions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.ValueTuple.dll">
+      <PackagePath>System.ValueTuple.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Web.HttpUtility.dll">
+      <PackagePath>System.Web.HttpUtility.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Web.dll">
+      <PackagePath>System.Web.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Windows.dll">
+      <PackagePath>System.Windows.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Xml.Linq.dll">
+      <PackagePath>System.Xml.Linq.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Xml.ReaderWriter.dll">
+      <PackagePath>System.Xml.ReaderWriter.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Xml.Serialization.dll">
+      <PackagePath>System.Xml.Serialization.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Xml.XDocument.dll">
+      <PackagePath>System.Xml.XDocument.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Xml.XPath.XDocument.dll">
+      <PackagePath>System.Xml.XPath.XDocument.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Xml.XPath.dll">
+      <PackagePath>System.Xml.XPath.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Xml.XmlDocument.dll">
+      <PackagePath>System.Xml.XmlDocument.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Xml.XmlSerializer.dll">
+      <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.Xml.dll">
+      <PackagePath>System.Xml.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\System.dll">
+      <PackagePath>System.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\WindowsBase.dll">
+      <PackagePath>WindowsBase.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\mscorlib.dll">
+      <PackagePath>mscorlib.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\lib\net10.0\netstandard.dll">
+      <PackagePath>netstandard.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\native\Microsoft.DiaSymReader.Native.amd64.dll">
+      <PackagePath>Microsoft.DiaSymReader.Native.amd64.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\native\System.IO.Compression.Native.dll">
+      <PackagePath>System.IO.Compression.Native.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\native\clretwrc.dll">
+      <PackagePath>clretwrc.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\native\clrgc.dll">
+      <PackagePath>clrgc.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\native\clrgcexp.dll">
+      <PackagePath>clrgcexp.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\native\clrjit.dll">
+      <PackagePath>clrjit.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\native\coreclr.dll">
+      <PackagePath>coreclr.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\native\hostfxr.dll">
+      <PackagePath>hostfxr.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\native\hostpolicy.dll">
+      <PackagePath>hostpolicy.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\native\mscordaccore.dll">
+      <PackagePath>mscordaccore.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\native\mscordaccore_amd64_amd64_10.0.626.17701.dll">
+      <PackagePath>mscordaccore_amd64_amd64_10.0.626.17701.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\native\mscordbi.dll">
+      <PackagePath>mscordbi.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\native\mscorrc.dll">
+      <PackagePath>mscorrc.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\native\msquic.dll">
+      <PackagePath>msquic.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.26100.57\lib\net8.0\Microsoft.Windows.SDK.NET.dll">
+      <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.26100.57\lib\net8.0\WinRT.Runtime.dll">
+      <PackagePath>WinRT.Runtime.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.26100.57\lib\net8.0\Microsoft.Windows.UI.Xaml.dll">
+      <PackagePath>Microsoft.Windows.UI.Xaml.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.web.webview2\1.0.2849.39\lib_manual\net8.0-windows10.0.17763.0\Microsoft.Web.WebView2.Core.Projection.dll">
+      <PackagePath>Microsoft.Web.WebView2.Core.Projection.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.netcore.app.runtime.win-x64\10.0.6\runtimes\win-x64\native\createdump.exe">
+      <PackagePath>createdump.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\background.js">
+      <PackagePath>BundledExtensions\AdblockForYouTube\background.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\codehemu-content.js">
+      <PackagePath>BundledExtensions\AdblockForYouTube\codehemu-content.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\data\interface\index.js">
+      <PackagePath>BundledExtensions\AdblockForYouTube\data\interface\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\data\icons\icon-1024.png">
+      <PackagePath>BundledExtensions\AdblockForYouTube\data\icons\icon-1024.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\data\icons\icon-128.png">
+      <PackagePath>BundledExtensions\AdblockForYouTube\data\icons\icon-128.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\data\icons\icon-16.png">
+      <PackagePath>BundledExtensions\AdblockForYouTube\data\icons\icon-16.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\data\icons\icon-19.png">
+      <PackagePath>BundledExtensions\AdblockForYouTube\data\icons\icon-19.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\data\icons\icon-32.png">
+      <PackagePath>BundledExtensions\AdblockForYouTube\data\icons\icon-32.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\data\icons\icon-38.png">
+      <PackagePath>BundledExtensions\AdblockForYouTube\data\icons\icon-38.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\data\icons\icon-512.png">
+      <PackagePath>BundledExtensions\AdblockForYouTube\data\icons\icon-512.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\data\icons\icon-disabled-1024.png">
+      <PackagePath>BundledExtensions\AdblockForYouTube\data\icons\icon-disabled-1024.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\data\icons\icon-disabled-128.png">
+      <PackagePath>BundledExtensions\AdblockForYouTube\data\icons\icon-disabled-128.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\data\icons\icon-disabled-16.png">
+      <PackagePath>BundledExtensions\AdblockForYouTube\data\icons\icon-disabled-16.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\data\icons\icon-disabled-19.png">
+      <PackagePath>BundledExtensions\AdblockForYouTube\data\icons\icon-disabled-19.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\data\icons\icon-disabled-32.png">
+      <PackagePath>BundledExtensions\AdblockForYouTube\data\icons\icon-disabled-32.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\data\icons\icon-disabled-38.png">
+      <PackagePath>BundledExtensions\AdblockForYouTube\data\icons\icon-disabled-38.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\data\icons\icon-disabled-512.png">
+      <PackagePath>BundledExtensions\AdblockForYouTube\data\icons\icon-disabled-512.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\data\icons\icon-simple-128.png">
+      <PackagePath>BundledExtensions\AdblockForYouTube\data\icons\icon-simple-128.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\data\icons\icon-simple-32.png">
+      <PackagePath>BundledExtensions\AdblockForYouTube\data\icons\icon-simple-32.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\data\icons\icon-simple-38.png">
+      <PackagePath>BundledExtensions\AdblockForYouTube\data\icons\icon-simple-38.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\noadds\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\noadds\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\noadds\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\noadds\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\noadds\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\noadds\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\noadds\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\data\interface\index.css">
+      <PackagePath>BundledExtensions\AdblockForYouTube\data\interface\index.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\data\interface\index.html">
+      <PackagePath>BundledExtensions\AdblockForYouTube\data\interface\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\manifest.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\manifest.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\af\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\af\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\am\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\am\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\ar\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\ar\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\az\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\az\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\be\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\be\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\bg\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\bg\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\bn\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\bn\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\bs\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\bs\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\ca\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\ca\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\ceb\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\ceb\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\co\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\co\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\cs\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\cs\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\cy\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\cy\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\da\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\da\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\de\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\de\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\el\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\el\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\en\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\en\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\eo\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\eo\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\es\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\es\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\et\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\et\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\eu\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\eu\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\fa\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\fa\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\fi\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\fi\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\fr\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\fr\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\fy\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\fy\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\ga\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\ga\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\gd\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\gd\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\gl\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\gl\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\gu\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\gu\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\haw\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\haw\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\ha\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\ha\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\hi\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\hi\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\hmn\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\hmn\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\hr\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\hr\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\ht\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\ht\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\hu\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\hu\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\hy\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\hy\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\id\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\id\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\ig\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\ig\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\is\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\is\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\it\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\it\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\iw\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\iw\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\ja\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\ja\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\jw\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\jw\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\ka\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\ka\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\kk\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\kk\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\km\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\km\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\kn\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\kn\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\ko\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\ko\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\ku\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\ku\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\ky\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\ky\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\la\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\la\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\lb\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\lb\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\lo\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\lo\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\lt\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\lt\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\lv\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\lv\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\mg\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\mg\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\mi\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\mi\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\mk\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\mk\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\ml\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\ml\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\mn\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\mn\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\mr\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\mr\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\ms\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\ms\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\mt\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\mt\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\my\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\my\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\ne\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\ne\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\nl\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\nl\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\no\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\no\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\ny\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\ny\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\or\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\or\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\pa\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\pa\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\pl\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\pl\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\ps\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\ps\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\pt\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\pt\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\ro\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\ro\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\ru\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\ru\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\rw\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\rw\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\sd\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\sd\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\si\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\si\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\sk\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\sk\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\sl\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\sl\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\sm\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\sm\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\sn\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\sn\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\so\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\so\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\sq\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\sq\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\sr\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\sr\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\st\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\st\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\su\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\su\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\sv\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\sv\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\sw\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\sw\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\ta\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\ta\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\te\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\te\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\tg\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\tg\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\th\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\th\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\tk\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\tk\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\tl\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\tl\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\tr\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\tr\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\tt\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\tt\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\ug\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\ug\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\uk\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\uk\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\ur\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\ur\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\uz\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\uz\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\vi\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\vi\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\xh\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\xh\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\yi\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\yi\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\yo\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\yo\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\zh_CN\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\zh_CN\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\zh_TW\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\zh_TW\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_locales\zu\messages.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_locales\zu\messages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_metadata\computed_hashes.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_metadata\computed_hashes.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\BundledExtensions\AdblockForYouTube\_metadata\verified_contents.json">
+      <PackagePath>BundledExtensions\AdblockForYouTube\_metadata\verified_contents.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\noadds\obj\x64\Debug\net10.0-windows10.0.26100.0\win-x64\apphost.exe">
+      <PackagePath>noadds.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.26100.0\Redist\Debug\x64\ucrtbased.dll">
+      <PackagePath>ucrtbased.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\.nuget\packages\microsoft.ui.xaml\2.8.7\buildTransitive\..\lib\uap10.0\Microsoft.UI.Xaml.winmd">
+      <PackagePath>Microsoft.UI.Xaml.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\factupid\source\repos\noadds\noadds\noadds\bin\x64\Debug\net10.0-windows10.0.26100.0\win-x64\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Users\factupid\.nuget\packages\microsoft.ui.xaml\2.8.7\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.8.appx">
+      <Name>Microsoft.UI.Xaml.2.8</Name>
+      <Version>8.2501.31001.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.8, MinVersion = 8.2501.31001.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\factupid\.nuget\packages\microsoft.ui.xaml\2.8.7\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.8.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\factupid\.nuget\packages\microsoft.ui.xaml\2.8.7\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.8.appx">
+      <Name>Microsoft.UI.Xaml.2.8</Name>
+      <Version>8.2501.31001.0</Version>
+      <Architecture>Win32</Architecture>
+      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.8, MinVersion = 8.2501.31001.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\factupid\.nuget\packages\microsoft.ui.xaml\2.8.7\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.8.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\factupid\.nuget\packages\microsoft.ui.xaml\2.8.7\buildTransitive\..\tools\AppX\x64\Release\Microsoft.UI.Xaml.2.8.appx">
+      <Name>Microsoft.UI.Xaml.2.8</Name>
+      <Version>8.2501.31001.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.8, MinVersion = 8.2501.31001.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\factupid\.nuget\packages\microsoft.ui.xaml\2.8.7\buildTransitive\..\tools\AppX\x64\Release\Microsoft.UI.Xaml.2.8.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\factupid\.nuget\packages\microsoft.ui.xaml\2.8.7\buildTransitive\..\tools\AppX\arm\Release\Microsoft.UI.Xaml.2.8.appx">
+      <Name>Microsoft.UI.Xaml.2.8</Name>
+      <Version>8.2501.31001.0</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.8, MinVersion = 8.2501.31001.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\factupid\.nuget\packages\microsoft.ui.xaml\2.8.7\buildTransitive\..\tools\AppX\arm\Release\Microsoft.UI.Xaml.2.8.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\factupid\.nuget\packages\microsoft.ui.xaml\2.8.7\buildTransitive\..\tools\AppX\arm64\Release\Microsoft.UI.Xaml.2.8.appx">
+      <Name>Microsoft.UI.Xaml.2.8</Name>
+      <Version>8.2501.31001.0</Version>
+      <Architecture>arm64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.8, MinVersion = 8.2501.31001.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\factupid\.nuget\packages\microsoft.ui.xaml\2.8.7\buildTransitive\..\tools\AppX\arm64\Release\Microsoft.UI.Xaml.2.8.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.33519.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.33519.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM64\Microsoft.VCLibs.ARM64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.33519.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.33519.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.33519.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.33519.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

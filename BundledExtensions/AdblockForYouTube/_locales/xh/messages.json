@@ -1,0 +1,58 @@
+{
+  "extensionName": {
+    "message": "I-Adblock yeYouTube™ — best adblocker",
+    "description": "The name of the application"
+  },
+  "extensionShortName": {
+    "message": "Adb YouTube™",
+    "description": "The short_name (maximum of 12 characters recommended) is a short version of the extension's name."
+  },
+  "extensionDescription": {
+    "message": "Ulwazi lwabucala, iAdblock ekhuselekileyo yeYouTube™. IiNtengiso zeNtengiso kuYouTube.com.",
+    "description": "The description of the application"
+  },
+  "actionTitle": {
+    "message": "Iinketho"
+  },
+  "enabled": {
+    "message": "Ivuliwe"
+  },
+  "disabled": {
+    "message": "Kukhubazekile"
+  },
+  "timesaveInfo": {
+    "message": "I-Adblock yeYouTube™ igciniwe malunga. $savedTime$ yobomi bakho bonke.",
+    "description": "Tells the user how many time he saved already.",
+    "placeholders": {
+      "savedTime": {
+        "content": "$1",
+        "example": "42"
+      }
+    }
+  },
+  "videoBranding": {
+    "message": "Icociwe yi-Adblock yeYouTube™",
+    "description": "Shown below a video"
+  },
+  "displayVideoBranding": {
+    "message": "Bonisa ulwazi olongezelelweyo ngezantsi kwevidiyo",
+    "description": "Boolean Option"
+  },
+  "displayActionCountAsBadgeText": {
+    "message": "Bonisa izicelo ezivaliweyo zibalwe kwibheji",
+    "description": "Boolean Option"
+  },
+  "recommend": {
+    "message": "Ncoma",
+    "description": "Shown by the recommend button"
+  },
+  "helpUsWithAReview": {
+    "message": "Sincede ngoPhononongo"
+  },
+  "later": {
+    "message": "Kamva"
+  },
+  "dontAskAgain": {
+    "message": "Ungaphinde ubuze"
+  }
+}

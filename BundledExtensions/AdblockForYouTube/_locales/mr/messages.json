@@ -1,0 +1,58 @@
+{
+   "actionTitle": {
+      "message": "पर्याय"
+   },
+   "disabled": {
+      "message": "अक्षम"
+   },
+   "displayActionCountAsBadgeText": {
+      "description": "Boolean Option",
+      "message": "ब्लॉक केलेल्या विनंत्या बॅजमध्ये दाखवा"
+   },
+   "displayVideoBranding": {
+      "description": "Boolean Option",
+      "message": "व्हिडिओ खाली विस्तार माहिती दर्शवा"
+   },
+   "dontAskAgain": {
+      "message": "पुन्हा विचारू नका"
+   },
+   "enabled": {
+      "message": "सक्षम केले"
+   },
+   "extensionDescription": {
+      "description": "The description of the application",
+      "message": "गोपनीयता जागरूक, YouTube™ साठी सुरक्षित अॅडब्लॉकर. YouTube.com वरील जाहिराती अवरोधित करा."
+   },
+   "extensionName": {
+      "description": "The name of the application",
+      "message": "YouTube™ साठी अॅडब्लॉक — best adblocker"
+   },
+   "extensionShortName": {
+      "description": "The short_name (maximum of 12 characters recommended) is a short version of the extension's name.",
+      "message": "Adb YouTube™"
+   },
+   "helpUsWithAReview": {
+      "message": "पुनरावलोकनासाठी आम्हाला मदत करा"
+   },
+   "later": {
+      "message": "नंतर"
+   },
+   "recommend": {
+      "description": "Shown by the recommend button",
+      "message": "शिफारस करा"
+   },
+   "timesaveInfo": {
+      "description": "Tells the user how many time he saved already.",
+      "message": "Youtube™ साठी Adblock अंदाजे जतन केले. तुमच्या आयुष्यातील $savedTime$.",
+      "placeholders": {
+         "savedTime": {
+            "content": "$1",
+            "example": "42"
+         }
+      }
+   },
+   "videoBranding": {
+      "description": "Shown below a video",
+      "message": "YouTube™ साठी Adblock द्वारे साफ केले"
+   }
+}

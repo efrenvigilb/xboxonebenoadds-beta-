@@ -1,0 +1,58 @@
+{
+   "actionTitle": {
+      "message": "オプション"
+   },
+   "disabled": {
+      "message": "無効"
+   },
+   "displayActionCountAsBadgeText": {
+      "description": "Boolean Option",
+      "message": "ブロックされたリクエストの数をバッジに表示する"
+   },
+   "displayVideoBranding": {
+      "description": "Boolean Option",
+      "message": "ビデオの下に拡張情報を表示する"
+   },
+   "dontAskAgain": {
+      "message": "二度と聞かないで"
+   },
+   "enabled": {
+      "message": "有効"
+   },
+   "extensionDescription": {
+      "description": "The description of the application",
+      "message": "プライバシーを意識した、YouTube™用の安全なAdblock。 YouTube.comの広告をブロックします。"
+   },
+   "extensionName": {
+      "description": "The name of the application",
+      "message": "YouTube™のAdblock — best adblocker"
+   },
+   "extensionShortName": {
+      "description": "The short_name (maximum of 12 characters recommended) is a short version of the extension's name.",
+      "message": "AdbYouTube™"
+   },
+   "helpUsWithAReview": {
+      "message": "レビューを手伝ってください"
+   },
+   "later": {
+      "message": "後で"
+   },
+   "recommend": {
+      "description": "Shown by the recommend button",
+      "message": "お勧め"
+   },
+   "timesaveInfo": {
+      "description": "Tells the user how many time he saved already.",
+      "message": "Youtube™のAdblockは約節約されました。あなたの生涯の$ savedTime $。",
+      "placeholders": {
+         "savedTime": {
+            "content": "$1",
+            "example": "42"
+         }
+      }
+   },
+   "videoBranding": {
+      "description": "Shown below a video",
+      "message": "AdblockforYouTube™によってクリーンアップされました"
+   }
+}

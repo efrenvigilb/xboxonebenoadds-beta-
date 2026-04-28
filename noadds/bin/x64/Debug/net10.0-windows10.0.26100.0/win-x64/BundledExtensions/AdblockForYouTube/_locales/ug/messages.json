@@ -1,0 +1,58 @@
+{
+   "actionTitle": {
+      "message": "تاللانما"
+   },
+   "disabled": {
+      "message": "چەكلەنگەن"
+   },
+   "displayActionCountAsBadgeText": {
+      "description": "Boolean Option",
+      "message": "بەلگە قويۇلغان چەكلەنگەن تەلەپلەرنى ساناش"
+   },
+   "displayVideoBranding": {
+      "description": "Boolean Option",
+      "message": "تۆۋەندىكى سىننىڭ كېڭەيتىلگەن ئۇچۇرىنى كۆرسەت"
+   },
+   "dontAskAgain": {
+      "message": "قايتا سورىماڭ"
+   },
+   "enabled": {
+      "message": "قوزغىتىلدى"
+   },
+   "extensionDescription": {
+      "description": "The description of the application",
+      "message": "مەخپىيەتلىكنى بىلىدۇ ، YouTube ئۈچۈن بىخەتەر Adblock. YouTube.com دىكى ئېلانلارنى توسىدۇ."
+   },
+   "extensionName": {
+      "description": "The name of the application",
+      "message": "Adblock for Youtube™ — best adblocker"
+   },
+   "extensionShortName": {
+      "description": "The short_name (maximum of 12 characters recommended) is a short version of the extension's name.",
+      "message": "Adb YouTube ™"
+   },
+   "helpUsWithAReview": {
+      "message": "ئوبزور بىلەن بىزگە ياردەم قىلىڭ"
+   },
+   "later": {
+      "message": "كېيىنچە"
+   },
+   "recommend": {
+      "description": "Shown by the recommend button",
+      "message": "تەۋسىيە قىلىڭ"
+   },
+   "timesaveInfo": {
+      "description": "Tells the user how many time he saved already.",
+      "message": "Youtube for Adblock for تەخمىنەن ساقلاندى. $ saveTime $ ئۆمرىڭىز.",
+      "placeholders": {
+         "savedTime": {
+            "content": "$1",
+            "example": "42"
+         }
+      }
+   },
+   "videoBranding": {
+      "description": "Shown below a video",
+      "message": "YouTube ئۈچۈن Adblock تەرىپىدىن تازىلاندى"
+   }
+}

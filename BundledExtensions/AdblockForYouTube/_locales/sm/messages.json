@@ -1,0 +1,58 @@
+{
+  "extensionName": {
+    "message": "Adblock mo YouTube™ — best adblocker",
+    "description": "The name of the application"
+  },
+  "extensionShortName": {
+    "message": "Adb YouTube™",
+    "description": "The short_name (maximum of 12 characters recommended) is a short version of the extension's name."
+  },
+  "extensionDescription": {
+    "message": "Fa'alilolilo fa'alilolilo, fa'amautu le Adblock mo YouTube™. poloka Fa'asalalauga ile YouTube.com.",
+    "description": "The description of the application"
+  },
+  "actionTitle": {
+    "message": "Filifiliga"
+  },
+  "enabled": {
+    "message": "Ua mafai"
+  },
+  "disabled": {
+    "message": "Fa'aletonu"
+  },
+  "timesaveInfo": {
+    "message": "Adblock mo Youtube™ fa'asaoina pe tusa. $savedTime$ o lou olaga atoa.",
+    "description": "Tells the user how many time he saved already.",
+    "placeholders": {
+      "savedTime": {
+        "content": "$1",
+        "example": "42"
+      }
+    }
+  },
+  "videoBranding": {
+    "message": "Fa'amama e le Adblock mo YouTube™",
+    "description": "Shown below a video"
+  },
+  "displayVideoBranding": {
+    "message": "Fa'aali fa'amatalaga fa'aopoopo i lalo ole vitio",
+    "description": "Boolean Option"
+  },
+  "displayActionCountAsBadgeText": {
+    "message": "Faaali atu talosaga poloka e faitaulia ile pine",
+    "description": "Boolean Option"
+  },
+  "recommend": {
+    "message": "Fautuaina",
+    "description": "Shown by the recommend button"
+  },
+  "helpUsWithAReview": {
+    "message": "Fesoasoani mai i se Iloiloga"
+  },
+  "later": {
+    "message": "Mulimuli ane"
+  },
+  "dontAskAgain": {
+    "message": "Aua le toe fesili"
+  }
+}

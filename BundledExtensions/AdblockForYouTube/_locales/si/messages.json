@@ -1,0 +1,58 @@
+{
+  "extensionName": {
+    "message": "YouTube™ සඳහා Adblock — best adblocker",
+    "description": "The name of the application"
+  },
+  "extensionShortName": {
+    "message": "Adb YouTube™",
+    "description": "The short_name (maximum of 12 characters recommended) is a short version of the extension's name."
+  },
+  "extensionDescription": {
+    "message": "YouTube™ සඳහා රහස්‍යතා දැනුවත්, ආරක්ෂිත Adblock. YouTube.com හි දැන්වීම් අවහිර කරයි.",
+    "description": "The description of the application"
+  },
+  "actionTitle": {
+    "message": "විකල්ප"
+  },
+  "enabled": {
+    "message": "සබල කර ඇත"
+  },
+  "disabled": {
+    "message": "ආබාධිතයි"
+  },
+  "timesaveInfo": {
+    "message": "Youtube™ සඳහා Adblock සුරකින ලද දළ වශයෙන්. ඔබේ ජීවිත කාලයෙහි $ ඉතිරි කළ කාලය.",
+    "description": "Tells the user how many time he saved already.",
+    "placeholders": {
+      "savedTime": {
+        "content": "$1",
+        "example": "42"
+      }
+    }
+  },
+  "videoBranding": {
+    "message": "YouTube™ සඳහා Adblock මගින් පිරිසිදු කර ඇත",
+    "description": "Shown below a video"
+  },
+  "displayVideoBranding": {
+    "message": "වීඩියෝව පහතින් දිගු තොරතුරු පෙන්වන්න",
+    "description": "Boolean Option"
+  },
+  "displayActionCountAsBadgeText": {
+    "message": "අවහිර කළ ඉල්ලීම් ගණන ලාංඡනයේ පෙන්වන්න",
+    "description": "Boolean Option"
+  },
+  "recommend": {
+    "message": "නිර්දේශ කරන්න",
+    "description": "Shown by the recommend button"
+  },
+  "helpUsWithAReview": {
+    "message": "සමාලෝචනයක් සමඟ අපට උදවු කරන්න"
+  },
+  "later": {
+    "message": "පසු"
+  },
+  "dontAskAgain": {
+    "message": "ආයේ අහන්න එපා"
+  }
+}

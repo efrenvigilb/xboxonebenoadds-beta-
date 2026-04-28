@@ -1,0 +1,58 @@
+{
+   "actionTitle": {
+      "message": "Chaguzi"
+   },
+   "disabled": {
+      "message": "Imezimwa"
+   },
+   "displayActionCountAsBadgeText": {
+      "description": "Boolean Option",
+      "message": "Onyesha idadi ya maombi yaliyozuiwa katika beji"
+   },
+   "displayVideoBranding": {
+      "description": "Boolean Option",
+      "message": "Onyesha maelezo ya kiendelezi hapa chini video"
+   },
+   "dontAskAgain": {
+      "message": "Usiulize tena"
+   },
+   "enabled": {
+      "message": "Imewashwa"
+   },
+   "extensionDescription": {
+      "description": "The description of the application",
+      "message": "Kufahamu faragha, Adblock salama ya YouTube™. Huzuia Matangazo kwenye YouTube.com."
+   },
+   "extensionName": {
+      "description": "The name of the application",
+      "message": "Adblock ya YouTube™ — best adblocker"
+   },
+   "extensionShortName": {
+      "description": "The short_name (maximum of 12 characters recommended) is a short version of the extension's name.",
+      "message": "Adb YouTube™"
+   },
+   "helpUsWithAReview": {
+      "message": "Tusaidie kwa Maoni"
+   },
+   "later": {
+      "message": "Baadae"
+   },
+   "recommend": {
+      "description": "Shown by the recommend button",
+      "message": "Pendekeza"
+   },
+   "timesaveInfo": {
+      "description": "Tells the user how many time he saved already.",
+      "message": "Adblock ya Youtube™ iliyohifadhiwa takriban. $savedTime$ ya maisha yako.",
+      "placeholders": {
+         "savedTime": {
+            "content": "$1",
+            "example": "42"
+         }
+      }
+   },
+   "videoBranding": {
+      "description": "Shown below a video",
+      "message": "Imesafishwa na Adblock ya YouTube™"
+   }
+}

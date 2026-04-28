@@ -1,0 +1,58 @@
+{
+  "extensionName": {
+    "message": "Adblock YouTube™-ի համար — best adblocker",
+    "description": "The name of the application"
+  },
+  "extensionShortName": {
+    "message": "Adb YouTube™",
+    "description": "The short_name (maximum of 12 characters recommended) is a short version of the extension's name."
+  },
+  "extensionDescription": {
+    "message": "Գաղտնիության գիտակցում, ապահով Adblock YouTube™-ի համար: Արգելափակում է գովազդը YouTube.com-ում:",
+    "description": "The description of the application"
+  },
+  "actionTitle": {
+    "message": "Ընտրանքներ"
+  },
+  "enabled": {
+    "message": "Միացված է"
+  },
+  "disabled": {
+    "message": "Անաշխատունակ"
+  },
+  "timesaveInfo": {
+    "message": "Adblock-ը Youtube™-ի համար պահվել է մոտ. $savedTime$ ձեր կյանքի ընթացքում:",
+    "description": "Tells the user how many time he saved already.",
+    "placeholders": {
+      "savedTime": {
+        "content": "$1",
+        "example": "42"
+      }
+    }
+  },
+  "videoBranding": {
+    "message": "Մաքրվել է Adblock-ի կողմից YouTube™-ի համար",
+    "description": "Shown below a video"
+  },
+  "displayVideoBranding": {
+    "message": "Ցույց տալ ընդլայնման մասին տեղեկությունները տեսանյութի տակ",
+    "description": "Boolean Option"
+  },
+  "displayActionCountAsBadgeText": {
+    "message": "Ցույց տալ արգելափակված հարցումների թիվը կրծքանշանում",
+    "description": "Boolean Option"
+  },
+  "recommend": {
+    "message": "Խորհուրդ տալ",
+    "description": "Shown by the recommend button"
+  },
+  "helpUsWithAReview": {
+    "message": "Օգնեք մեզ վերանայման հարցում"
+  },
+  "later": {
+    "message": "Ավելի ուշ"
+  },
+  "dontAskAgain": {
+    "message": "Այլևս մի հարցրու"
+  }
+}

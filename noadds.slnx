@@ -7,7 +7,8 @@
   <Project Path="noadds/noadds.csproj">
     <Platform Solution="*|arm64" Project="arm64" />
     <Platform Solution="*|x64" Project="x64" />
-    <Platform Solution="*|x86" Project="x86" />
+    <Platform Solution="Debug|x86" Project="x64" />
+    <Platform Solution="Release|x86" Project="x86" />
     <Deploy />
   </Project>
 </Solution>

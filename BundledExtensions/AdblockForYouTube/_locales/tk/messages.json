@@ -1,0 +1,58 @@
+{
+  "extensionName": {
+    "message": "YouTube ™ üçin blokirleme — best adblocker",
+    "description": "The name of the application"
+  },
+  "extensionShortName": {
+    "message": "Adb YouTube ™",
+    "description": "The short_name (maximum of 12 characters recommended) is a short version of the extension's name."
+  },
+  "extensionDescription": {
+    "message": "Gizlinlikden habarly, YouTube ™ üçin ygtybarly Adblock. YouTube.com-daky mahabatlary bloklaýar.",
+    "description": "The description of the application"
+  },
+  "actionTitle": {
+    "message": "Görnüş"
+  },
+  "enabled": {
+    "message": "Işledilen"
+  },
+  "disabled": {
+    "message": "Maýyp"
+  },
+  "timesaveInfo": {
+    "message": "Youtube ™ üçin blokirleme takmynan saklandy. ömrüňiziň $ tygşytlanan wagty.",
+    "description": "Tells the user how many time he saved already.",
+    "placeholders": {
+      "savedTime": {
+        "content": "$1",
+        "example": "42"
+      }
+    }
+  },
+  "videoBranding": {
+    "message": "“YouTube ™” üçin “Adblock” tarapyndan arassalanyldy",
+    "description": "Shown below a video"
+  },
+  "displayVideoBranding": {
+    "message": "Wideonyň aşagyndaky giňeltme maglumatyny görkeziň",
+    "description": "Boolean Option"
+  },
+  "displayActionCountAsBadgeText": {
+    "message": "Bloklanan haýyşlary nyşanda görkeziň",
+    "description": "Boolean Option"
+  },
+  "recommend": {
+    "message": "Maslahat beriň",
+    "description": "Shown by the recommend button"
+  },
+  "helpUsWithAReview": {
+    "message": "Syn bilen bize kömek ediň"
+  },
+  "later": {
+    "message": "Soňrak"
+  },
+  "dontAskAgain": {
+    "message": "Againene sorama"
+  }
+}

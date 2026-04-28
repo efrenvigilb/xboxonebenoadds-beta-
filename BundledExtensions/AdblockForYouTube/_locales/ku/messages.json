@@ -1,0 +1,58 @@
+{
+  "extensionName": {
+    "message": "Adblock ji bo YouTube™ — best adblocker",
+    "description": "The name of the application"
+  },
+  "extensionShortName": {
+    "message": "Adb YouTube™",
+    "description": "The short_name (maximum of 12 characters recommended) is a short version of the extension's name."
+  },
+  "extensionDescription": {
+    "message": "Agahdariya nepenîtiyê, Adblockê ewledar ji bo YouTube™. Reklamên li ser YouTube.com asteng dike.",
+    "description": "The description of the application"
+  },
+  "actionTitle": {
+    "message": "Vebijêrk"
+  },
+  "enabled": {
+    "message": "Enabled"
+  },
+  "disabled": {
+    "message": "Bêmecel"
+  },
+  "timesaveInfo": {
+    "message": "Adblock ji bo Youtube™ nêzîkê tomar kir. $savedTime$ ji jiyana te.",
+    "description": "Tells the user how many time he saved already.",
+    "placeholders": {
+      "savedTime": {
+        "content": "$1",
+        "example": "42"
+      }
+    }
+  },
+  "videoBranding": {
+    "message": "Ji bo YouTube™ ji hêla Adblock ve hatî paqij kirin",
+    "description": "Shown below a video"
+  },
+  "displayVideoBranding": {
+    "message": "Agahdariya dirêjkirinê li jêr vîdyoyê nîşan bide",
+    "description": "Boolean Option"
+  },
+  "displayActionCountAsBadgeText": {
+    "message": "Hejmara daxwazên astengkirî di nîşaneyê de nîşan bide",
+    "description": "Boolean Option"
+  },
+  "recommend": {
+    "message": "Pêşnîyarkirin",
+    "description": "Shown by the recommend button"
+  },
+  "helpUsWithAReview": {
+    "message": "Alîkariya me bi Review"
+  },
+  "later": {
+    "message": "Paşan"
+  },
+  "dontAskAgain": {
+    "message": "Careke din nepirsin"
+  }
+}

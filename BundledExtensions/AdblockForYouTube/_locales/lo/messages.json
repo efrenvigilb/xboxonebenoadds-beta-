@@ -1,0 +1,58 @@
+{
+  "extensionName": {
+    "message": "Adblock ສໍາລັບ YouTube™ — best adblocker",
+    "description": "The name of the application"
+  },
+  "extensionShortName": {
+    "message": "Adb YouTube™",
+    "description": "The short_name (maximum of 12 characters recommended) is a short version of the extension's name."
+  },
+  "extensionDescription": {
+    "message": "ການຮັບຮູ້ຄວາມເປັນສ່ວນຕົວ, Adblock ທີ່ປອດໄພສຳລັບ YouTube™. ຂັດຂວາງການໂຄສະນາໃນ YouTube.com.",
+    "description": "The description of the application"
+  },
+  "actionTitle": {
+    "message": "ທາງເລືອກ"
+  },
+  "enabled": {
+    "message": "ເປີດໃຊ້ແລ້ວ"
+  },
+  "disabled": {
+    "message": "ຄົນພິການ"
+  },
+  "timesaveInfo": {
+    "message": "Adblock ສໍາລັບ Youtube™ ທີ່ບັນທຶກໄວ້ປະມານ. $savedTime$ ຂອງຕະຫຼອດຊີວິດຂອງທ່ານ.",
+    "description": "Tells the user how many time he saved already.",
+    "placeholders": {
+      "savedTime": {
+        "content": "$1",
+        "example": "42"
+      }
+    }
+  },
+  "videoBranding": {
+    "message": "ອະນາໄມໂດຍ Adblock ສໍາລັບ YouTube™",
+    "description": "Shown below a video"
+  },
+  "displayVideoBranding": {
+    "message": "ສະແດງຂໍ້ມູນສ່ວນຂະຫຍາຍຢູ່ລຸ່ມວິດີໂອ",
+    "description": "Boolean Option"
+  },
+  "displayActionCountAsBadgeText": {
+    "message": "ສະແດງຄຳຮ້ອງຂໍທີ່ຖືກບລັອກຢູ່ໃນປ້າຍ",
+    "description": "Boolean Option"
+  },
+  "recommend": {
+    "message": "ແນະນໍາ",
+    "description": "Shown by the recommend button"
+  },
+  "helpUsWithAReview": {
+    "message": "ຊ່ວຍພວກເຮົາໃນການທົບທວນ"
+  },
+  "later": {
+    "message": "ຕໍ່ມາ"
+  },
+  "dontAskAgain": {
+    "message": "ຢ່າຖາມອີກ"
+  }
+}

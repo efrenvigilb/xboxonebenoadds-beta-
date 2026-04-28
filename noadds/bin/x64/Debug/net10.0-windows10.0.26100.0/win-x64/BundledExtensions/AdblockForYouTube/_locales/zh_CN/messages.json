@@ -1,0 +1,58 @@
+{
+   "actionTitle": {
+      "message": "选项"
+   },
+   "disabled": {
+      "message": "已禁用"
+   },
+   "displayActionCountAsBadgeText": {
+      "description": "Boolean Option",
+      "message": "在徽章中显示被阻止的请求计数"
+   },
+   "displayVideoBranding": {
+      "description": "Boolean Option",
+      "message": "在视频下方显示扩展信息"
+   },
+   "dontAskAgain": {
+      "message": "不要再问"
+   },
+   "enabled": {
+      "message": "启用"
+   },
+   "extensionDescription": {
+      "description": "The description of the application",
+      "message": "适用于 YouTube™ 的隐私保护、安全 Adblock。阻止 YouTube.com 上的广告。"
+   },
+   "extensionName": {
+      "description": "The name of the application",
+      "message": "YouTube™ 广告拦截器 — best adblocker"
+   },
+   "extensionShortName": {
+      "description": "The short_name (maximum of 12 characters recommended) is a short version of the extension's name.",
+      "message": "亚行 YouTube™"
+   },
+   "helpUsWithAReview": {
+      "message": "帮助我们进行评论"
+   },
+   "later": {
+      "message": "之后"
+   },
+   "recommend": {
+      "description": "Shown by the recommend button",
+      "message": "推荐"
+   },
+   "timesaveInfo": {
+      "description": "Tells the user how many time he saved already.",
+      "message": "Youtube™ 的 Adblock 节省了大约。您一生中的 $savedTime$ 。",
+      "placeholders": {
+         "savedTime": {
+            "content": "$1",
+            "example": "42"
+         }
+      }
+   },
+   "videoBranding": {
+      "description": "Shown below a video",
+      "message": "由 Adblock for YouTube™ 清理"
+   }
+}

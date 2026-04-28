@@ -1,0 +1,58 @@
+{
+   "actionTitle": {
+      "message": "Options"
+   },
+   "disabled": {
+      "message": "Disabled"
+   },
+   "displayActionCountAsBadgeText": {
+      "description": "Boolean Option",
+      "message": "Show blocked requests count in badge"
+   },
+   "displayVideoBranding": {
+      "description": "Boolean Option",
+      "message": "Show extension info below video"
+   },
+   "dontAskAgain": {
+      "message": "Don't ask again"
+   },
+   "enabled": {
+      "message": "Enabled"
+   },
+   "extensionDescription": {
+      "description": "The description of the application",
+      "message": "Privacy aware, secure Adblock for YouTube™. Blocks any ads on YouTube.com."
+   },
+   "extensionName": {
+      "description": "The name of the application",
+      "message": "Adblock for YouTube™ — best adblocker"
+   },
+   "extensionShortName": {
+      "description": "The short_name (maximum of 12 characters recommended) is a short version of the extension's name.",
+      "message": "Adb YouTube™"
+   },
+   "helpUsWithAReview": {
+      "message": "Help us with a Review"
+   },
+   "later": {
+      "message": "Later"
+   },
+   "recommend": {
+      "description": "Shown by the recommend button",
+      "message": "Recommend"
+   },
+   "timesaveInfo": {
+      "description": "Tells the user how many time he saved already.",
+      "message": "Adblock for Youtube™ saved approx. $savedTime$ of your lifetime.",
+      "placeholders": {
+         "savedTime": {
+            "content": "$1",
+            "example": "42"
+         }
+      }
+   },
+   "videoBranding": {
+      "description": "Shown below a video",
+      "message": "Cleaned by Adblock for YouTube™"
+   }
+}

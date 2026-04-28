@@ -1,0 +1,58 @@
+{
+   "actionTitle": {
+      "message": "Awọn aṣayan"
+   },
+   "disabled": {
+      "message": "Alaabo"
+   },
+   "displayActionCountAsBadgeText": {
+      "description": "Boolean Option",
+      "message": "Ṣe afihan iye awọn ibeere ti a dina mọ ni baaji"
+   },
+   "displayVideoBranding": {
+      "description": "Boolean Option",
+      "message": "Ṣe afihan alaye itẹsiwaju ni isalẹ fidio"
+   },
+   "dontAskAgain": {
+      "message": "Maṣe beere lẹẹkansi"
+   },
+   "enabled": {
+      "message": "Ti ṣiṣẹ"
+   },
+   "extensionDescription": {
+      "description": "The description of the application",
+      "message": "Mọ asiri, Adblock to ni aabo fun YouTube™. Dina Awọn ipolowo lori YouTube.com."
+   },
+   "extensionName": {
+      "description": "The name of the application",
+      "message": "Adblock fun YouTube™ — best adblocker"
+   },
+   "extensionShortName": {
+      "description": "The short_name (maximum of 12 characters recommended) is a short version of the extension's name.",
+      "message": "Adb YouTube™"
+   },
+   "helpUsWithAReview": {
+      "message": "Ran wa pẹlu kan Review"
+   },
+   "later": {
+      "message": "Nigbamii"
+   },
+   "recommend": {
+      "description": "Shown by the recommend button",
+      "message": "ṣeduro"
+   },
+   "timesaveInfo": {
+      "description": "Tells the user how many time he saved already.",
+      "message": "Adblock fun Youtube™ ti o fipamọ ni isunmọ. $savedTime$ ti igbesi aye rẹ.",
+      "placeholders": {
+         "savedTime": {
+            "content": "$1",
+            "example": "42"
+         }
+      }
+   },
+   "videoBranding": {
+      "description": "Shown below a video",
+      "message": "Ti sọ di mimọ nipasẹ Adblock fun YouTube™"
+   }
+}

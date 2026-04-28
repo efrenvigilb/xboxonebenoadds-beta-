@@ -1,0 +1,58 @@
+{
+   "actionTitle": {
+      "message": "Pilihan"
+   },
+   "disabled": {
+      "message": "Dengan disabilitas"
+   },
+   "displayActionCountAsBadgeText": {
+      "description": "Boolean Option",
+      "message": "Tampilkan jumlah permintaan yang diblokir di lencana"
+   },
+   "displayVideoBranding": {
+      "description": "Boolean Option",
+      "message": "Tampilkan info ekstensi di bawah video"
+   },
+   "dontAskAgain": {
+      "message": "Jangan tanya lagi"
+   },
+   "enabled": {
+      "message": "Diaktifkan"
+   },
+   "extensionDescription": {
+      "description": "The description of the application",
+      "message": "Sadar privasi, amankan Adblock untuk YouTube™. Memblokir Iklan di YouTube.com."
+   },
+   "extensionName": {
+      "description": "The name of the application",
+      "message": "Blok Iklan untuk YouTube™ — best adblocker"
+   },
+   "extensionShortName": {
+      "description": "The short_name (maximum of 12 characters recommended) is a short version of the extension's name.",
+      "message": "Adb YouTube™"
+   },
+   "helpUsWithAReview": {
+      "message": "Bantu kami dengan Ulasan"
+   },
+   "later": {
+      "message": "Nanti"
+   },
+   "recommend": {
+      "description": "Shown by the recommend button",
+      "message": "Menyarankan"
+   },
+   "timesaveInfo": {
+      "description": "Tells the user how many time he saved already.",
+      "message": "Adblock untuk Youtube™ disimpan sekitar. $savedTime$ seumur hidup Anda.",
+      "placeholders": {
+         "savedTime": {
+            "content": "$1",
+            "example": "42"
+         }
+      }
+   },
+   "videoBranding": {
+      "description": "Shown below a video",
+      "message": "Dibersihkan oleh Adblock untuk YouTube™"
+   }
+}

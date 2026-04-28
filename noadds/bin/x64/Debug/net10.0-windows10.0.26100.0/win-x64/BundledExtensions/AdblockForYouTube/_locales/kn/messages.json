@@ -1,0 +1,58 @@
+{
+   "actionTitle": {
+      "message": "ಆಯ್ಕೆಗಳು"
+   },
+   "disabled": {
+      "message": "ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ"
+   },
+   "displayActionCountAsBadgeText": {
+      "description": "Boolean Option",
+      "message": "ಬ್ಯಾಡ್ಜ್‌ನಲ್ಲಿ ನಿರ್ಬಂಧಿಸಲಾದ ವಿನಂತಿಗಳ ಸಂಖ್ಯೆಯನ್ನು ತೋರಿಸಿ"
+   },
+   "displayVideoBranding": {
+      "description": "Boolean Option",
+      "message": "ವೀಡಿಯೊ ಕೆಳಗೆ ವಿಸ್ತರಣೆ ಮಾಹಿತಿಯನ್ನು ತೋರಿಸಿ"
+   },
+   "dontAskAgain": {
+      "message": "ಮತ್ತೆ ಕೇಳಬೇಡ"
+   },
+   "enabled": {
+      "message": "ಸಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ"
+   },
+   "extensionDescription": {
+      "description": "The description of the application",
+      "message": "YouTube™ ಗಾಗಿ ಗೌಪ್ಯತೆ ಅರಿವು, ಸುರಕ್ಷಿತ ಆಡ್ ಬ್ಲಾಕರ್. YouTube.com ನಲ್ಲಿ ಜಾಹೀರಾತುಗಳನ್ನು ನಿರ್ಬಂಧಿಸುತ್ತದೆ."
+   },
+   "extensionName": {
+      "description": "The name of the application",
+      "message": "YouTube™ ಗಾಗಿ ಆಡ್ ಬ್ಲಾಕ್"
+   },
+   "extensionShortName": {
+      "description": "The short_name (maximum of 12 characters recommended) is a short version of the extension's name.",
+      "message": "Adb YouTube™"
+   },
+   "helpUsWithAReview": {
+      "message": "ವಿಮರ್ಶೆಯೊಂದಿಗೆ ನಮಗೆ ಸಹಾಯ ಮಾಡಿ"
+   },
+   "later": {
+      "message": "ನಂತರ"
+   },
+   "recommend": {
+      "description": "Shown by the recommend button",
+      "message": "ಶಿಫಾರಸು ಮಾಡಿ"
+   },
+   "timesaveInfo": {
+      "description": "Tells the user how many time he saved already.",
+      "message": "Youtube™ ಗಾಗಿ ಆಡ್ಬ್ಲಾಕ್ ಸರಿಸುಮಾರು ಉಳಿಸಲಾಗಿದೆ. ನಿಮ್ಮ $savedTime$ $ಉಳಿಸಿದ ಸಮಯ$.",
+      "placeholders": {
+         "savedTime": {
+            "content": "$1",
+            "example": "42"
+         }
+      }
+   },
+   "videoBranding": {
+      "description": "Shown below a video",
+      "message": "YouTube™ ಗಾಗಿ Adblock ಮೂಲಕ ಸ್ವಚ್ಛಗೊಳಿಸಲಾಗಿದೆ"
+   }
+}

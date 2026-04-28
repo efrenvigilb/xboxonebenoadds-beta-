@@ -1,0 +1,58 @@
+{
+  "extensionName": {
+    "message": "Adblock барои YouTube™ — best adblocker",
+    "description": "The name of the application"
+  },
+  "extensionShortName": {
+    "message": "Adb YouTube™",
+    "description": "The short_name (maximum of 12 characters recommended) is a short version of the extension's name."
+  },
+  "extensionDescription": {
+    "message": "Огоҳ аз махфият, бехатар Adblock барои YouTube™. Рекламаҳоро дар YouTube.com блок мекунад.",
+    "description": "The description of the application"
+  },
+  "actionTitle": {
+    "message": "Имконот"
+  },
+  "enabled": {
+    "message": "Фаъол"
+  },
+  "disabled": {
+    "message": "Маъюб"
+  },
+  "timesaveInfo": {
+    "message": "Adblock барои Youtube™ тақрибан захира шудааст. $savedTime$ -и умри шумо.",
+    "description": "Tells the user how many time he saved already.",
+    "placeholders": {
+      "savedTime": {
+        "content": "$1",
+        "example": "42"
+      }
+    }
+  },
+  "videoBranding": {
+    "message": "Бо Adblock барои YouTube™ тоза карда шудааст",
+    "description": "Shown below a video"
+  },
+  "displayVideoBranding": {
+    "message": "Маълумоти васеъшавиро дар зер видео нишон диҳед",
+    "description": "Boolean Option"
+  },
+  "displayActionCountAsBadgeText": {
+    "message": "Шумораи дархостҳои басташударо дар лавҳа нишон диҳед",
+    "description": "Boolean Option"
+  },
+  "recommend": {
+    "message": "Тавсия кунед",
+    "description": "Shown by the recommend button"
+  },
+  "helpUsWithAReview": {
+    "message": "Ба мо дар як барраси кӯмак кунед"
+  },
+  "later": {
+    "message": "Баъдтар"
+  },
+  "dontAskAgain": {
+    "message": "Боз напурсед"
+  }
+}

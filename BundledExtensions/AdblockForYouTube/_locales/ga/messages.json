@@ -1,0 +1,58 @@
+{
+  "extensionName": {
+    "message": "Adblock do YouTube™ — best adblocker",
+    "description": "The name of the application"
+  },
+  "extensionShortName": {
+    "message": "Adb YouTube™",
+    "description": "The short_name (maximum of 12 characters recommended) is a short version of the extension's name."
+  },
+  "extensionDescription": {
+    "message": "Feasach ar phríobháideachas, slán Adblock do YouTube™. Bloic Fógraí ar YouTube.com.",
+    "description": "The description of the application"
+  },
+  "actionTitle": {
+    "message": "Roghanna"
+  },
+  "enabled": {
+    "message": "Cumasaithe"
+  },
+  "disabled": {
+    "message": "Faoi mhíchumas"
+  },
+  "timesaveInfo": {
+    "message": "Shábháil Adblock do Youtube™ thart ar. $savedTime$ de do shaolré.",
+    "description": "Tells the user how many time he saved already.",
+    "placeholders": {
+      "savedTime": {
+        "content": "$1",
+        "example": "42"
+      }
+    }
+  },
+  "videoBranding": {
+    "message": "Glanta ag Adblock do YouTube™",
+    "description": "Shown below a video"
+  },
+  "displayVideoBranding": {
+    "message": "Taispeáin faisnéis bhreise faoin bhfíseán",
+    "description": "Boolean Option"
+  },
+  "displayActionCountAsBadgeText": {
+    "message": "Taispeáin líon na n-iarratas bactha sa suaitheantas",
+    "description": "Boolean Option"
+  },
+  "recommend": {
+    "message": "Mholadh",
+    "description": "Shown by the recommend button"
+  },
+  "helpUsWithAReview": {
+    "message": "Cabhraigh linn le Léirmheas"
+  },
+  "later": {
+    "message": "Níos déanaí"
+  },
+  "dontAskAgain": {
+    "message": "Ná fiafraigh arís"
+  }
+}

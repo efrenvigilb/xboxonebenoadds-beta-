@@ -1,0 +1,58 @@
+{
+  "extensionName": {
+    "message": "Adblock pou YouTube™ — best adblocker",
+    "description": "The name of the application"
+  },
+  "extensionShortName": {
+    "message": "Adb YouTube™",
+    "description": "The short_name (maximum of 12 characters recommended) is a short version of the extension's name."
+  },
+  "extensionDescription": {
+    "message": "Konsyan sou enfòmasyon prive, sekirize Adblock pou YouTube™. Bloke Piblisite sou YouTube.com.",
+    "description": "The description of the application"
+  },
+  "actionTitle": {
+    "message": "Opsyon"
+  },
+  "enabled": {
+    "message": "Pèmèt"
+  },
+  "disabled": {
+    "message": "Andikape"
+  },
+  "timesaveInfo": {
+    "message": "Adblock pou Youtube™ sove apeprè. $savedTime$ nan lavi ou.",
+    "description": "Tells the user how many time he saved already.",
+    "placeholders": {
+      "savedTime": {
+        "content": "$1",
+        "example": "42"
+      }
+    }
+  },
+  "videoBranding": {
+    "message": "Netwaye pa Adblock pou YouTube™",
+    "description": "Shown below a video"
+  },
+  "displayVideoBranding": {
+    "message": "Montre enfòmasyon ekstansyon anba videyo a",
+    "description": "Boolean Option"
+  },
+  "displayActionCountAsBadgeText": {
+    "message": "Montre konte demann bloke yo nan badj",
+    "description": "Boolean Option"
+  },
+  "recommend": {
+    "message": "Rekòmande",
+    "description": "Shown by the recommend button"
+  },
+  "helpUsWithAReview": {
+    "message": "Ede nou ak yon revizyon"
+  },
+  "later": {
+    "message": "Pita"
+  },
+  "dontAskAgain": {
+    "message": "Pa mande ankò"
+  }
+}

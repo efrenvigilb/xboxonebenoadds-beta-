@@ -1,0 +1,58 @@
+{
+  "extensionName": {
+    "message": "Adblock no YouTube™ — best adblocker",
+    "description": "The name of the application"
+  },
+  "extensionShortName": {
+    "message": "ʻO Adb YouTube™",
+    "description": "The short_name (maximum of 12 characters recommended) is a short version of the extension's name."
+  },
+  "extensionDescription": {
+    "message": "ʻIke pilikino, palekana Adblock no YouTube™. Kāohi i nā hoʻolaha ma YouTube.com.",
+    "description": "The description of the application"
+  },
+  "actionTitle": {
+    "message": "Nā koho"
+  },
+  "enabled": {
+    "message": "Hoʻohana ʻia"
+  },
+  "disabled": {
+    "message": "Kinohi"
+  },
+  "timesaveInfo": {
+    "message": "Ua mālama ʻia ʻo Adblock no Youtube™ ma kahi o. $SavedTime$ o kou ola ana.",
+    "description": "Tells the user how many time he saved already.",
+    "placeholders": {
+      "savedTime": {
+        "content": "$1",
+        "example": "42"
+      }
+    }
+  },
+  "videoBranding": {
+    "message": "Hoʻomaʻemaʻe ʻia e Adblock no YouTube™",
+    "description": "Shown below a video"
+  },
+  "displayVideoBranding": {
+    "message": "E hōʻike i ka ʻike hoʻonui ma lalo o ka wikiō",
+    "description": "Boolean Option"
+  },
+  "displayActionCountAsBadgeText": {
+    "message": "Hōʻike i nā noi i ālai ʻia i helu ʻia ma ka hōʻailona",
+    "description": "Boolean Option"
+  },
+  "recommend": {
+    "message": "Manaʻo",
+    "description": "Shown by the recommend button"
+  },
+  "helpUsWithAReview": {
+    "message": "E kōkua mai iā mākou me ka loiloi"
+  },
+  "later": {
+    "message": "Ma hope aku"
+  },
+  "dontAskAgain": {
+    "message": "Mai nīnau hou"
+  }
+}

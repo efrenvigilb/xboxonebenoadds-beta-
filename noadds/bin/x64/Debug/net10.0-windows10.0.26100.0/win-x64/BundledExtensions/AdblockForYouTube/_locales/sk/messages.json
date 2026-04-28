@@ -1,0 +1,58 @@
+{
+   "actionTitle": {
+      "message": "možnosti"
+   },
+   "disabled": {
+      "message": "Zakázané"
+   },
+   "displayActionCountAsBadgeText": {
+      "description": "Boolean Option",
+      "message": "Zobraziť počet zablokovaných žiadostí v odznaku"
+   },
+   "displayVideoBranding": {
+      "description": "Boolean Option",
+      "message": "Zobraziť informácie o rozšírení pod videom"
+   },
+   "dontAskAgain": {
+      "message": "Už sa nepýtaj"
+   },
+   "enabled": {
+      "message": "Povolené"
+   },
+   "extensionDescription": {
+      "description": "The description of the application",
+      "message": "Bezpečný blokovač reklám pre YouTube™ s ohľadom na ochranu osobných údajov. Blokuje reklamy na YouTube.com."
+   },
+   "extensionName": {
+      "description": "The name of the application",
+      "message": "Adblock pre YouTube™ — best adblocker"
+   },
+   "extensionShortName": {
+      "description": "The short_name (maximum of 12 characters recommended) is a short version of the extension's name.",
+      "message": "Adb YouTube™"
+   },
+   "helpUsWithAReview": {
+      "message": "Pomôžte nám s recenziou"
+   },
+   "later": {
+      "message": "Neskôr"
+   },
+   "recommend": {
+      "description": "Shown by the recommend button",
+      "message": "Odporučiť"
+   },
+   "timesaveInfo": {
+      "description": "Tells the user how many time he saved already.",
+      "message": "Adblock pre Youtube™ ušetril cca. $savedTime$ vášho života.",
+      "placeholders": {
+         "savedTime": {
+            "content": "$1",
+            "example": "42"
+         }
+      }
+   },
+   "videoBranding": {
+      "description": "Shown below a video",
+      "message": "Vyčistené službou Adblock pre YouTube™"
+   }
+}

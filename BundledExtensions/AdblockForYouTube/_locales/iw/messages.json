@@ -1,0 +1,58 @@
+{
+  "extensionName": {
+    "message": "Adblock for YouTube™ — best adblocker",
+    "description": "The name of the application"
+  },
+  "extensionShortName": {
+    "message": "Adb YouTube™",
+    "description": "The short_name (maximum of 12 characters recommended) is a short version of the extension's name."
+  },
+  "extensionDescription": {
+    "message": "מודע לפרטיות, חסימת מודעות מאובטחת עבור YouTube™. חוסם פרסומות ב-YouTube.com.",
+    "description": "The description of the application"
+  },
+  "actionTitle": {
+    "message": "אפשרויות"
+  },
+  "enabled": {
+    "message": "מופעל"
+  },
+  "disabled": {
+    "message": "נָכֶה"
+  },
+  "timesaveInfo": {
+    "message": "Adblock for Youtube™ חסך כ. $savedTime$ של חייך.",
+    "description": "Tells the user how many time he saved already.",
+    "placeholders": {
+      "savedTime": {
+        "content": "$1",
+        "example": "42"
+      }
+    }
+  },
+  "videoBranding": {
+    "message": "ניקה על ידי Adblock for YouTube™",
+    "description": "Shown below a video"
+  },
+  "displayVideoBranding": {
+    "message": "הצג מידע על הרחבה מתחת לסרטון",
+    "description": "Boolean Option"
+  },
+  "displayActionCountAsBadgeText": {
+    "message": "הצג את ספירת הבקשות החסומות בתג",
+    "description": "Boolean Option"
+  },
+  "recommend": {
+    "message": "לְהַמלִיץ",
+    "description": "Shown by the recommend button"
+  },
+  "helpUsWithAReview": {
+    "message": "עזרו לנו בסקירה"
+  },
+  "later": {
+    "message": "יותר מאוחר"
+  },
+  "dontAskAgain": {
+    "message": "אל תשאל שוב"
+  }
+}
