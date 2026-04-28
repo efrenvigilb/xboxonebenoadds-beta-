@@ -2,7 +2,6 @@ using Microsoft.Web.WebView2.Core;
 using System;
 using System.Globalization;
 using System.Threading.Tasks;
-using Windows.ApplicationModel;
 using Windows.Gaming.Input;
 using Windows.Storage;
 using Windows.Storage.Pickers;
@@ -18,7 +17,6 @@ namespace noadds
     public sealed partial class MainPage : Page
     {
         private const string HomeUrl = "https://m.youtube.com";
-        private const string BundledExtensionRelativePath = "BundledExtensions\\AdblockForYouTube";
         private const double RightStickDeadZone = 0.2;
         private const double ScrollPixelsPerTick = 48;
         private const string YoutubeAdBlockScript = @"
@@ -54,6 +52,16 @@ namespace noadds
         '#masthead-ad',
         '[layout=""display-ad-renderer""]',
         '[is-advertisement-renderer]',
+        '#offer-module',
+        '#promotion-shelf',
+        'ytd-search-pyv-renderer',
+        'ytd-ad-slot-renderer',
+        'ytd-player-legacy-desktop-watch-ads-renderer',
+        'ytd-engagement-panel-section-list-renderer[target-id=""engagement-panel-ads""]',
+        'ytm-promoted-sparkles-web-renderer',
+        'ytm-companion-ad-renderer',
+        '.ytd-popup-container',
+        '#error-screen',
         '.ad-showing'
     ];
 
@@ -64,9 +72,16 @@ namespace noadds
         '.ytp-paid-content-overlay, .ytp-ad-image-overlay, .ytd-action-companion-ad-renderer,',
         'ytd-display-ad-renderer, ytd-promoted-sparkles-web-renderer, ytd-promoted-video-renderer,',
         'ytd-player-legacy-desktop-watch-ads-renderer, ytd-ad-slot-renderer, ytm-promoted-sparkles-web-renderer,',
-        'ytm-companion-ad-renderer, masthead-ad, #player-ads, #masthead-ad { display: none !important; visibility: hidden !important; }'
+        'ytm-companion-ad-renderer, masthead-ad, #player-ads, #masthead-ad, #offer-module, #promotion-shelf,',
+        'ytd-search-pyv-renderer, ytd-engagement-panel-section-list-renderer[target-id=""engagement-panel-ads""]',
+        '{ display: none !important; visibility: hidden !important; }'
     ].join(' ');
     document.documentElement.appendChild(css);
+
+    const inlineScriptsArray = [
+        '(()=>{const proxy={apply:(target,thisArg,args)=>{const result=Reflect.apply(target,thisArg,args);if(!location.pathname.startsWith(""/shorts/""))return result;const entries=result&&result.entries;if(entries&&Array.isArray(entries)){result.entries=result.entries.filter(item=>!(item&&item.command&&item.command.reelWatchEndpoint&&item.command.reelWatchEndpoint.adClientParams&&item.command.reelWatchEndpoint.adClientParams.isAd));}return result;}};window.JSON.parse=new Proxy(window.JSON.parse,proxy);})();',
+        '(()=>{const proxy={apply:(target,thisArg,args)=>{const callback=args[0];if(typeof callback===""function"" && callback.toString().includes(""onAbnormalityDetected"")){args[0]=function(){};}return Reflect.apply(target,thisArg,args);}};window.Promise.prototype.then=new Proxy(window.Promise.prototype.then,proxy);})();'
+    ];
 
     function removeMatchingNodes() {
         selectors.forEach(function (selector) {
@@ -94,6 +109,10 @@ namespace noadds
             if (playerResponse && playerResponse.playerAds) {
                 playerResponse.playerAds = [];
             }
+
+            if (playerResponse && playerResponse.adSlots) {
+                playerResponse.adSlots = [];
+            }
         } catch (e) {
         }
     }
@@ -116,6 +135,22 @@ namespace noadds
 
                     if (Array.isArray(parsed.playerAds)) {
                         parsed.playerAds = [];
+                    }
+
+                    if (Array.isArray(parsed.adSlots)) {
+                        parsed.adSlots = [];
+                    }
+
+                    if (parsed.playerResponse && Array.isArray(parsed.playerResponse.adPlacements)) {
+                        parsed.playerResponse.adPlacements = [];
+                    }
+
+                    if (parsed.playerResponse && Array.isArray(parsed.playerResponse.playerAds)) {
+                        parsed.playerResponse.playerAds = [];
+                    }
+
+                    if (parsed.playerResponse && Array.isArray(parsed.playerResponse.adSlots)) {
+                        parsed.playerResponse.adSlots = [];
                     }
                 }
             } catch (e) {
@@ -167,14 +202,96 @@ namespace noadds
         }
     }
 
+    function patchFetchAndXhr() {
+        if (window.__noAddsNetworkPatched) {
+            return;
+        }
+
+        window.__noAddsNetworkPatched = true;
+
+        const originalFetch = window.fetch;
+        window.fetch = function () {
+            return originalFetch.apply(this, arguments).then(function (response) {
+                return response;
+            });
+        };
+
+        const originalOpen = XMLHttpRequest.prototype.open;
+        XMLHttpRequest.prototype.open = function (method, url) {
+            try {
+                this.__noAddsUrl = url;
+            } catch (e) {
+            }
+
+            return originalOpen.apply(this, arguments);
+        };
+    }
+
+    function patchGlobals() {
+        try {
+            Object.defineProperty(window, 'google_ad_status', {
+                configurable: true,
+                get: function () { return '1'; },
+                set: function () { }
+            });
+        } catch (e) {
+        }
+    }
+
+    function dismissAntiBlock() {
+        try {
+            const textToCheck = 'ad block';
+            const containers = document.querySelectorAll('#error-screen > #container, .ytd-popup-container > #container');
+            Array.from(containers).forEach(function (container) {
+                const content = (container.textContent || '').toLowerCase();
+                if (content.includes(textToCheck)) {
+                    const popup = container.closest('tp-yt-paper-dialog, ytd-popup-container, #error-screen');
+                    if (popup) {
+                        popup.remove();
+                    }
+                }
+            });
+        } catch (e) {
+        }
+    }
+
+    function trackShortsAds() {
+        try {
+            if (!location.pathname.startsWith('/shorts/')) {
+                return;
+            }
+
+            const entries = document.querySelectorAll('[is-advertisement-renderer], ytd-ad-slot-renderer');
+            entries.forEach(function (entry) {
+                const reel = entry.closest('ytd-reel-video-renderer');
+                if (reel) {
+                    reel.remove();
+                } else {
+                    entry.remove();
+                }
+            });
+        } catch (e) {
+        }
+    }
+
     function clean() {
         patchPlayerResponse();
         removeMatchingNodes();
         skipButtons();
         forceEndVideoAds();
+        dismissAntiBlock();
+        trackShortsAds();
     }
 
     patchJsonParsing();
+    patchFetchAndXhr();
+    patchGlobals();
+    inlineScriptsArray.forEach(function (script) {
+        try {
+            window.eval(script);
+        } catch (e) {
+        }
+    });
     clean();
     window.setInterval(clean, 500);
 
@@ -214,6 +331,7 @@ namespace noadds
             BackButton.IsEnabled = false;
             ForwardButton.IsEnabled = false;
             StatusText.Text = "Inicializando navegador";
+            SetExtensionBanner("Proteccion integrada: iniciando...", "#1D3A24", "#2E7D32");
 
             Loaded += MainPage_Loaded;
             Unloaded += MainPage_Unloaded;
@@ -247,15 +365,16 @@ namespace noadds
                 BrowserView.CoreWebView2.Settings.AreDevToolsEnabled = true;
                 BrowserView.CoreWebView2.HistoryChanged += CoreWebView2_HistoryChanged;
                 await BrowserView.CoreWebView2.AddScriptToExecuteOnDocumentCreatedAsync(YoutubeAdBlockScript);
-                await TryInstallBundledExtensionAsync();
 
                 isWebViewReady = true;
                 StatusText.Text = "WebView2 listo";
+                SetExtensionBanner("Proteccion integrada activa", "#1D3A24", "#2E7D32");
                 NavigateToAddress(HomeUrl);
             }
             catch (Exception ex)
             {
                 StatusText.Text = $"No se pudo iniciar WebView2: {ex.Message}";
+                SetExtensionBanner("Proteccion integrada no disponible", "#4A1F1F", "#C62828");
             }
         }
 
@@ -301,11 +420,7 @@ namespace noadds
             if (BrowserView.CoreWebView2 is null)
             {
                 StatusText.Text = "WebView2 aun no esta listo";
-                return;
-            }
-
-            if (await TryInstallBundledExtensionAsync())
-            {
+                SetExtensionBanner("Proteccion integrada: WebView2 no esta listo", "#5A3B12", "#F9A825");
                 return;
             }
 
@@ -325,42 +440,34 @@ namespace noadds
                     await BrowserView.CoreWebView2.Profile.AddBrowserExtensionAsync(folder.Path);
 
                 StatusText.Text = $"Extension instalada: {extension.Name}";
+                SetExtensionBanner($"Extension manual activa: {extension.Name}", "#1D3A24", "#2E7D32");
             }
             catch (Exception ex)
             {
                 StatusText.Text = $"No se pudo instalar la extension: {ex.Message}";
+                SetExtensionBanner("Extensiones WebView2 no soportadas aqui", "#5A3B12", "#F9A825");
             }
         }
 
-        private async Task<bool> TryInstallBundledExtensionAsync()
+        private void SetExtensionBanner(string text, string backgroundColor, string borderColor)
         {
-            if (BrowserView.CoreWebView2 is null)
+            ExtensionStatusText.Text = text;
+            ExtensionBanner.Background = new Windows.UI.Xaml.Media.SolidColorBrush(ParseColor(backgroundColor));
+            ExtensionBanner.BorderBrush = new Windows.UI.Xaml.Media.SolidColorBrush(ParseColor(borderColor));
+        }
+
+        private static Windows.UI.Color ParseColor(string hex)
+        {
+            string value = hex.TrimStart('#');
+            if (value.Length == 6)
             {
-                return false;
+                byte r = Convert.ToByte(value.Substring(0, 2), 16);
+                byte g = Convert.ToByte(value.Substring(2, 2), 16);
+                byte b = Convert.ToByte(value.Substring(4, 2), 16);
+                return Windows.UI.Color.FromArgb(255, r, g, b);
             }
 
-            string bundledExtensionPath = System.IO.Path.Combine(
-                Package.Current.InstalledLocation.Path,
-                BundledExtensionRelativePath);
-
-            if (!System.IO.File.Exists(System.IO.Path.Combine(bundledExtensionPath, "manifest.json")))
-            {
-                return false;
-            }
-
-            try
-            {
-                CoreWebView2BrowserExtension extension =
-                    await BrowserView.CoreWebView2.Profile.AddBrowserExtensionAsync(bundledExtensionPath);
-
-                StatusText.Text = $"Extension activa: {extension.Name}";
-                return true;
-            }
-            catch (Exception ex)
-            {
-                StatusText.Text = $"No se pudo activar la extension incluida: {ex.Message}";
-                return false;
-            }
+            return Windows.UI.Colors.Transparent;
         }
 
         private void AddressBar_KeyDown(object sender, KeyRoutedEventArgs e)
@@ -541,11 +648,12 @@ namespace noadds
             {
                 view.TryEnterFullScreenMode();
                 TitleText.Visibility = Visibility.Collapsed;
+                ExtensionBanner.Visibility = Visibility.Collapsed;
                 NavigationBar.Visibility = Visibility.Collapsed;
                 StatusText.Visibility = Visibility.Collapsed;
                 StatusText.Text = "Modo inmersivo";
                 BrowserView.SetValue(Grid.RowProperty, 0);
-                BrowserView.SetValue(Grid.RowSpanProperty, 4);
+                BrowserView.SetValue(Grid.RowSpanProperty, 5);
                 BrowserView.Margin = new Thickness(0);
                 RootLayout.Padding = new Thickness(0);
                 RootLayout.RowSpacing = 0;
@@ -554,10 +662,11 @@ namespace noadds
             {
                 view.ExitFullScreenMode();
                 TitleText.Visibility = Visibility.Visible;
+                ExtensionBanner.Visibility = Visibility.Visible;
                 NavigationBar.Visibility = Visibility.Visible;
                 StatusText.Visibility = Visibility.Visible;
                 StatusText.Text = IsYouTubeUri(BrowserView.Source) ? "Filtro de anuncios activo en YouTube" : "Listo";
-                BrowserView.SetValue(Grid.RowProperty, 3);
+                BrowserView.SetValue(Grid.RowProperty, 4);
                 BrowserView.SetValue(Grid.RowSpanProperty, 1);
                 BrowserView.Margin = new Thickness(0, 8, 0, 0);
                 RootLayout.Padding = new Thickness(12);

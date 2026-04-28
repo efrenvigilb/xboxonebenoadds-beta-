@@ -612,3 +612,4 @@ C:\Users\factupid\source\repos\noadds\noadds\noadds\obj\x64\Debug\net10.0-window
 C:\Users\factupid\source\repos\noadds\noadds\noadds\obj\x64\Debug\net10.0-windows10.0.26100.0\win-x64\qualifiers.txt.intermediate
 C:\Users\factupid\source\repos\noadds\noadds\noadds\obj\x64\Debug\net10.0-windows10.0.26100.0\win-x64\MultipleQualifiersPerDimensionFound.txt
 C:\Users\factupid\source\repos\noadds\noadds\noadds\obj\x64\Debug\net10.0-windows10.0.26100.0\win-x64\ProjectArchitectures.txt
+C:\Users\factupid\source\repos\noadds\noadds\noadds\obj\x64\Debug\net10.0-windows10.0.26100.0\win-x64\noadds.sourcelink.json

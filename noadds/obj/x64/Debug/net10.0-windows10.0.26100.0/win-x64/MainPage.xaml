@@ -14,6 +14,7 @@
             <RowDefinition Height="Auto" />
             <RowDefinition Height="Auto" />
             <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
 
@@ -23,9 +24,23 @@
             FontSize="24"
             FontWeight="SemiBold" />
 
-        <Grid x:ConnectionId='4'
-            x:Name="NavigationBar"
+        <Border x:ConnectionId='4'
+            x:Name="ExtensionBanner"
             Grid.Row="1"
+            Background="#1D3A24"
+            BorderBrush="#2E7D32"
+            BorderThickness="1"
+            CornerRadius="8"
+            Padding="10,8">
+            <TextBlock x:ConnectionId='15'
+                x:Name="ExtensionStatusText"
+                Text="Extension: comprobando..."
+                FontWeight="SemiBold" />
+        </Border>
+
+        <Grid x:ConnectionId='5'
+            x:Name="NavigationBar"
+            Grid.Row="2"
             ColumnSpacing="8"
             Margin="0,8,0,0">
             <Grid.ColumnDefinitions>
@@ -38,54 +53,54 @@
                 <ColumnDefinition Width="Auto" />
             </Grid.ColumnDefinitions>
 
-            <Button x:ConnectionId='7'
+            <Button x:ConnectionId='8'
                 x:Name="BackButton"
                 Grid.Column="0"
                 Content="Atras"
                                          />
 
-            <Button x:ConnectionId='8'
+            <Button x:ConnectionId='9'
                 x:Name="ForwardButton"
                 Grid.Column="1"
                 Content="Adelante"
                                             />
 
-            <Button x:ConnectionId='9'
+            <Button x:ConnectionId='10'
                 Grid.Column="2"
                 Content="Inicio"
                                          />
 
-            <Button x:ConnectionId='10'
+            <Button x:ConnectionId='11'
                 Grid.Column="3"
                 Content="Recargar"
                                             />
 
-            <Button x:ConnectionId='11'
+            <Button x:ConnectionId='12'
                 Grid.Column="4"
                 Content="Extensiones"
                                                />
 
-            <TextBox x:ConnectionId='12'
+            <TextBox x:ConnectionId='13'
                 x:Name="AddressBar"
                 Grid.Column="5"
                 PlaceholderText="Escribe una URL o busqueda"
                                              />
 
-            <Button x:ConnectionId='13'
+            <Button x:ConnectionId='14'
                 Grid.Column="6"
                 Content="Ir"
                                        />
         </Grid>
 
-        <TextBlock x:ConnectionId='5'
+        <TextBlock x:ConnectionId='6'
             x:Name="StatusText"
-            Grid.Row="2"
+            Grid.Row="3"
             Text="Listo"
             Opacity="0.8" />
 
-        <muxc:WebView2 x:ConnectionId='6'
+        <muxc:WebView2 x:ConnectionId='7'
             x:Name="BrowserView"
-            Grid.Row="3"
+            Grid.Row="4"
             Margin="0,8,0,0"
                                                                
                                                                   />

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("noadds")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7bf07599eb2cba7d72c745aeec963180a1d0f488")]
 [assembly: System.Reflection.AssemblyProductAttribute("noadds")]
 [assembly: System.Reflection.AssemblyTitleAttribute("noadds")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
